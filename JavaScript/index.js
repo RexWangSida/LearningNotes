@@ -24,7 +24,11 @@ console.log(person['name']);
 let colors = [];
 colors[0] = "red";
 console.log(colors);
-console.log(colors.length)
+console.log(colors.length);
+
+//array sort and reverse
+colors.sort();
+colors.reverse();
 
 //function
 function greet(name){
@@ -54,3 +58,17 @@ arrow4 = val => "Arrow function" + val;
 console.log(arrow4('4'));
 
 //for/while loops are the same as in java
+
+//class
+class Car{
+    constructor(brand){
+        this.brand = brand;    
+    }
+    getBrand(){
+        return this.brand;
+    }
+}
+car = new Car("Ford");
+console.log(car);
+console.log(car.brand);
+console.log(car.getBrand());
