@@ -2,7 +2,7 @@
 
 console.log('Hello World')
 
-//declare variable
+//declare variable, let and const provides "block scope" in addition to global and local scope
 let name = 'Hello World';
 console.log(name);
 const one = 1;
@@ -32,3 +32,5 @@ function greet(name){
 }
 greet('John');
 greet('Charles');
+
+//for/while loops are the same as in java
