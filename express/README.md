@@ -5,7 +5,7 @@ npm -- node package manager
 
 package.jason -- config/settings
 
-\n
+\
 
 
 conmmand line: npm i express
