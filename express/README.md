@@ -3,7 +3,7 @@ command line: npm init
 
 npm -- node package manager
 
-package.jason -- config/settings\
+package.jason -- config/settings
 
 
 
