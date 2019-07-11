@@ -1,9 +1,8 @@
 # mongoDB
 https://docs.mongodb.com/manual/reference/method/
 
-command line: 
+command line(ubuntu): 
 ---------------------------
-
 sudo service mongodb start
 mongo
 
