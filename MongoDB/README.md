@@ -36,18 +36,32 @@ Relationships:
 ---------------------------
 example:
 db.products.insert(
+
   {
+  
   _id:3,
+  
   name:"Rubber",
+  
   price:1.30,
+  
   stock:43,
+  
   reviews: [
-    {
-      authorNames: "Sally",
-      rating: 5,
-      reviews: "Best rubber ever!"
-    }
-  ]
+  
+  {
+  
+    authorNames: "Sally",
+  
+    rating: 5,
+    
+    reviews: "Best rubber ever!"
+  
   }
+  
+  ]
+  
+  }
+
 )
 
