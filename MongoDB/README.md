@@ -31,3 +31,23 @@ db.collection.updateOne() //add feature to the one of the collection. example: d
 db.collection.deleteOne()
 
 db.collection.deleteMany()
+
+Relationships:
+---------------------------
+example:
+db.products.insert(
+  {
+  _id:3,
+  name:"Rubber",
+  price:1.30,
+  stock:43,
+  reviews: [
+    {
+      authorNames: "Sally",
+      rating: 5,
+      reviews: "Best rubber ever!"
+    }
+  ]
+  }
+)
+
