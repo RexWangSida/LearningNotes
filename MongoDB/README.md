@@ -13,7 +13,7 @@ show dbs //show all databases on local host
 
 show collections //show all collections in current databases
 
-use //create new database
+use //create new database or change directory to the exsiting database
 
 db //current database
 
