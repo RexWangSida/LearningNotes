@@ -1,4 +1,4 @@
-# mongoDB
+# MongoDB
 https://docs.mongodb.com/manual/reference/method/
 
 command line(ubuntu): 
@@ -26,4 +26,4 @@ db.collection.find() //read
 
 db.collection.find(query or projection) //read with specific query, query using {}, 1 and 0 means yes or no
 
-
+db.product.updateOne() //add feature to the one of the collection. example: db.products.updateOne({_id:1},{$set: {stock:32}})
