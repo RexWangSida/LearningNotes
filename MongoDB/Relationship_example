@@ -6,10 +6,15 @@ db.products.insert(
   stock:43,
   reviews: [
     {
-      authorNames: "Sally",
+      authorName: "Sally",
       rating: 5,
-      reviews: "Best rubber ever!"
-    }  
+      review: "Best rubber ever!"
+    },
+    {
+      authorName: "Jhon",
+      rating: 5,
+      review: "Awesome rubber!"
+    }
   ]
   }
  )
