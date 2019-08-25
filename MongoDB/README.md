@@ -18,10 +18,12 @@ use //create new database or change directory to the exsiting database
 db //current database
 
 
-db.collection.insertOne() //collection of data, table, name is arbitrary
+db.collection.insertOne() //collection of data, table, name is d
 
 db.collection.insertMany()
 
 db.collection.find() //read
 
-db.collection.find(query) //read with specific query
+db.collection.find(query or projection) //read with specific query, query using {}, 1 and 0 means yes or no
+
+
