@@ -1,5 +1,6 @@
 # MongoDB
 https://docs.mongodb.com/manual/reference/method/
+--use different drivers for different languages
 
 command line(ubuntu): 
 ---------------------------
@@ -31,3 +32,7 @@ db.collection.updateOne() //add feature to the one of the collection. example: d
 db.collection.deleteOne()
 
 db.collection.deleteMany()
+
+Relationships in MongoDB:
+---------------------------
+examples in section
