@@ -1,0 +1,15 @@
+/* This is a comment
+selected tag{
+  property: value;
+
+}
+*/
+h1{
+  color:purple;
+}
+ol{
+  color:orange;
+}
+p{
+  color:rgb(100,22,22);
+}
