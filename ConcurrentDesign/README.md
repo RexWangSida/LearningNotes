@@ -41,7 +41,7 @@
    ```
    <x := x + 1>||<x := x + 2>                   <x> := <x + 1>||<x> := <x + 2>
    ```
-      <img src="./src/atomic.svg">
+   <img src="./src/atomic.svg">
 
 **2.Non-Interference**
   - Proof for Sequential program: `Pre-condition`, `Transition`, `Post-condition`
