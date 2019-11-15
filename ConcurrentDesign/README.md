@@ -17,3 +17,8 @@
 **2.fork & join**
   - **fork**：allows processes to be started, start() in Java & Python, go in go
   - **join**：waits for process to terminate, [join()](https://www.geeksforgeeks.org/joining-threads-in-java/) in Java & Python
+  
+## Mutual Exclusion
+    
+**1.Atomicity**
+  - **Atomicity brackets**: '<'x := x + 1'>'
