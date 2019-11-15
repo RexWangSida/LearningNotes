@@ -38,7 +38,9 @@
     ```
     are not.
    - Auxiliary variables are needed to express atomicity in state diagrams.
-   
+   ```
+   <x := x + 1>||<x := x + 2>                   <x> := <x + 1>||<x> := <x + 2>
+   ```
       <img src="./src/atomic.svg">
 
 **2.Non-Interference**
