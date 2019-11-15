@@ -10,4 +10,4 @@
   - mutual exclusion
   - condition synchronization
 
-### Parallel Composition
+## Parallel Composition
