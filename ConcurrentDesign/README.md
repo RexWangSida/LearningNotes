@@ -9,3 +9,5 @@
   - parallel composition
   - mutual exclusion
   - condition synchronization
+
+## Parallel Composition
