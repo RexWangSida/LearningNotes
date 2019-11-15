@@ -11,3 +11,6 @@
   - condition synchronization
 
 ## Parallel Composition
+
+1.S1 || ... || Sn => parallel composition of process S1 to Sn
+2.fork & join
