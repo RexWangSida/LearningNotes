@@ -22,4 +22,13 @@
     
 **1.Atomicity**
   - **Atomicity brackets**: `<`x := x + 1`>`
-  - only access to `individual basic variables` and `array elements of basic types` is atomic
+  - Only access to `individual basic variables` and `array elements of basic types` is atomic, e.g. `x := x + 1` is equal to `<x> := <x> + <1>` which is not atomic
+  - Reading and Writing to a `word` from and to memory is atomic. In Java, access to 
+    ```java
+    int boolean float pointer
+    ```
+    are atomic since they are `word-sized` and access to
+    ```java
+    double long
+    ```
+    are not.
