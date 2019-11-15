@@ -19,7 +19,7 @@
   - **join**：waits for process to terminate, *[join()](https://www.geeksforgeeks.org/joining-threads-in-java/)* in Java & Python
   
 **3.** In State Diagram, parallel composition is visualized by a dashed line and transitions are atomic steps:
-<img src="./src/parallel.svg">
+        <img src="./src/parallel.svg">
   
 ## Mutual Exclusion
   - The goal of Mutual Exclusion is to avoid interference in parallel composition.
