@@ -22,3 +22,4 @@
     
 **1.Atomicity**
   - **Atomicity brackets**: `<`x := x + 1`>`
+  - only access to `individual basic variables` and `array elements of basic types` is atomic
