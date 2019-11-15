@@ -37,6 +37,9 @@
     double long
     ```
     are not.
+   - Auxiliary variables are needed to express atomicity in state diagrams.
+   
+      <img src="./src/atomic.svg">
 
 **2.Non-Interference**
   - Proof for Sequential program: `Pre-condition`, `Transition`, `Post-condition`
