@@ -1,11 +1,11 @@
 # ConcurrentDesign
-- Sequential Program
+- **Sequential Program**
   - assignment statement
   - sequential composition
   - conditional statement
   - repetitive statement
   
-- Concurrent Program
+- **Concurrent Program**
   - parallel composition
   - mutual exclusion
   - condition synchronization
