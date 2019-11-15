@@ -21,4 +21,4 @@
 ## Mutual Exclusion
     
 **1.Atomicity**
-  - **Atomicity brackets**: '<'x := x + 1'>'
+  - **Atomicity brackets**: `<`x := x + 1`>`
