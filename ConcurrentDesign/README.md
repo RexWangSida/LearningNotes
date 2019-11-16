@@ -21,6 +21,16 @@
 **3. In State Diagram, parallel composition is visualized by a dashed line and transitions are atomic steps**:
 
    <img src="./src/parallel.svg">
+   
+**4. Threads** are used to implement parallel composition
+  - [Threads in Java](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
+  ```Java
+  
+  ```
+  - [Threads in Python](https://docs.python.org/2/library/threading.html)
+  ```Java
+  
+  ```
 
 ## Mutual Exclusion
   - The goal of Mutual Exclusion is to avoid interference in parallel composition.
