@@ -73,3 +73,9 @@
   
 **- <a name = 'critical'>Critical Section</a>**
   - Resources shared by different processes/threads
+  
+**- DeadLock**
+  - Deadlock describes a situation where two or more threads are blocked forever, waiting for each other
+  
+**- LiveLock**
+  - LiveLock describes a situation where two or more threads are not blocked but are unable to make further progress
