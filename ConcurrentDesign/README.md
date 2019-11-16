@@ -33,7 +33,8 @@
   ```
 
 ## Mutual Exclusion
-  - The goal of Mutual Exclusion is to avoid interference in parallel composition.
+  - The goal of Mutual Exclusion is to avoid `interference` in parallel composition.
+  - Mutual Exclusion is typically implemented by `locks` that protect `critical sections`.
     
 **1.Atomicity**
   - **Atomicity brackets**: `<`x := x + 1`>`
@@ -68,4 +69,6 @@
   - All states in all traces are good, expressed by invariance properties
   
 **- Liveness**
-  - All traces will eventually lead to a good state/result
+  - All traces will eventually lead to a good state/result, implicitly including termination
+  
+**- Critical Section**
