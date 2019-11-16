@@ -6,7 +6,7 @@
   - repetitive statement
   
 - **Concurrent Program**
-  - [parallel composition](parallel)
+  - [parallel composition](#parallel)
   - [mutual exclusion](#Mutual Exclusion)
   - [condition synchronization](#Condition Synchronization)
 
