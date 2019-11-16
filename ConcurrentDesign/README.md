@@ -46,6 +46,6 @@
 **2.Non-Interference**
   - Proof for Sequential program: `Pre-condition`, `Transition`, `Post-condition`
   - Proof for concurrent program: `Pre-condition`, `Transition`, `Post-condition`, `Non-interference`
-  - Weakening for Non-interference
+  - Weakening for Non-interference:
   
      <img src="./src/weak.svg">
