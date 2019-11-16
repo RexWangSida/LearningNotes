@@ -49,3 +49,6 @@
   - Weakening for Non-interference:
   
      <img src="./src/weak.svg">
+     
+## Condition Synchronization
+  - Condition Synchronization delays a process until another establishes a certain condition.
