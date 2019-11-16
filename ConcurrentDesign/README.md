@@ -34,7 +34,7 @@
 
 ## <a name = "mutual">Mutual Exclusion</a>
   - The goal of Mutual Exclusion is to avoid `interference` in parallel composition.
-  - Mutual Exclusion is typically implemented by `locks` that protect `critical sections`.
+  - Mutual Exclusion is typically implemented by `locks` that protect [`critical sections`](#critical).
     
 **1.Atomicity**
   - **Atomicity brackets**: `<`x := x + 1`>`
@@ -71,4 +71,4 @@
 **- Liveness**
   - All traces will eventually lead to a good state/result, implicitly including termination
   
-**- Critical Section**
+**- <a name = 'critical'>Critical Section</a>**
