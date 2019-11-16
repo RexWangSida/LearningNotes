@@ -6,11 +6,11 @@
   - repetitive statement
   
 - **Concurrent Program**
-  - [parallel composition](#Parallel Composition)
+  - [parallel composition](parallel)
   - [mutual exclusion](#Mutual Exclusion)
   - [condition synchronization](#Condition Synchronization)
 
-## Parallel Composition
+## <a name = "parallel">Parallel Composition</a>
 
 **1.S1 || ... || Sn** => parallel composition of process S1 to Sn
 
