@@ -33,7 +33,7 @@
   ```
 
 ## <a name = "mutual">Mutual Exclusion</a>
-  - The goal of Mutual Exclusion is to avoid `interference` in parallel composition.
+  - The goal of Mutual Exclusion is to allows only one process be in its [`critical sections`](#critical).
   - Mutual Exclusion is typically implemented by `locks` that protect [`critical sections`](#critical).
     
 **1.Atomicity**
@@ -72,3 +72,4 @@
   - All traces will eventually lead to a good state/result, implicitly including termination
   
 **- <a name = 'critical'>Critical Section</a>**
+  - Resources shared by different processes/threads
