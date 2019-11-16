@@ -7,8 +7,8 @@
   
 - **Concurrent Program**
   - [parallel composition](#parallel)
-  - [mutual exclusion](#Mutual Exclusion)
-  - [condition synchronization](#Condition Synchronization)
+  - [mutual exclusion](#mutual)
+  - [condition synchronization](#condition)
 
 ## <a name = "parallel">Parallel Composition</a>
 
@@ -32,7 +32,7 @@
   
   ```
 
-## Mutual Exclusion
+## <a name = "mutual">Mutual Exclusion</a>
   - The goal of Mutual Exclusion is to avoid `interference` in parallel composition.
   - Mutual Exclusion is typically implemented by `locks` that protect `critical sections`.
     
@@ -61,7 +61,7 @@
   
      <img src="./src/weak.svg">
      
-## Condition Synchronization
+## <a name = "condition">Condition Synchronization</a>
   - Condition Synchronization delays a process until another establishes a certain condition.
   
 ## Properties of Concurrent Programs
