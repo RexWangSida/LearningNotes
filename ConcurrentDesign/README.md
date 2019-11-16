@@ -62,3 +62,10 @@
      
 ## Condition Synchronization
   - Condition Synchronization delays a process until another establishes a certain condition.
+  
+## Properties of Concurrent Programs
+**- Safety**
+  - All states in all traces are good, expressed by invariance properties
+  
+**- Liveness**
+  - All traces will eventually lead to a good state/result
