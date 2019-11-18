@@ -31,6 +31,10 @@ Variables declaration: `var` statement declares variables in Go, variable type a
 var x,y int
 var z [10]int
 ```
+Variables initialization:
+```go
+var x,y int = 1, 2
+```
 ## Function
 The variable and function return type is always after the variable name and function name.
 ```go
@@ -55,6 +59,6 @@ Named return value with naked return:
 func split(sum int) (x, y int) { //x, y are named return value
 	x = sum * 4 / 9
 	y = sum - x
-	return //return x, y automatically
+	return //naked return: returns x, y automatically
 }
 ```
