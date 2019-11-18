@@ -35,6 +35,13 @@ Variables initialization:
 ```go
 var x,y int = 1, 2
 ```
+Variables without explicit initializations will be given zero value:
+  - **0** for numeric types `int`, `float`
+  - **false** for boolean `bool`
+  - **""** empty string for `string`
+## Type Conversion
+Similar to Python, use `type(varibale)`:
+
 ## Function
 The variable and function return type is always after the variable name and function name.
 ```go
