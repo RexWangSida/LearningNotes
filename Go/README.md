@@ -26,11 +26,7 @@ import (
 )
 ```
 ## Variable
-`var` statement declares variables in Go
-```go
-var
-```
-Variables declaration: variable type after variable name(inverse of most languages).
+Variables declaration: `var` statement declares variables in Go, variable type after variable name(inverse of most languages).
 ```go
 var x,y int
 var z [10]int
