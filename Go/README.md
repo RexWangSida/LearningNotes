@@ -17,10 +17,16 @@ import (
 	"math/rand"
 )
 ```
+## Variable
+Variables declaration: variable type after variable name(inverse of most languages).
+```go
+x,y int
+z [10]int
+```
 ## Function
 The variable and function return type is always after the variable name and function name.
 ```go
 func add(x int, y int){
-	return x+y
+	return x + y
 }
 ```
