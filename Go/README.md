@@ -1,5 +1,11 @@
 # GO Lang Syntax
-
+## Comment
+```go
+//This is a comment line
+/*
+This is a comment segment
+*/
+```
 ## Package
 Programs start running in package `main`.
 ```go
@@ -30,9 +36,23 @@ func add(x int, y int){
 	return x + y
 }
 ```
-two or more consecutive named function parameters share a type:
+Two or more consecutive named function parameters share a type:
 ```go
 func add(x, y int){
 	return x + y
+}
+```
+Return multiple result:
+```go
+func swap(x, y string) (string, string) {
+	return y, x
+}
+```
+Named return value with naked return:
+```go
+func split(sum int) (x, y int) {
+	x = sum * 4 / 9
+	y = sum - x
+	return
 }
 ```
