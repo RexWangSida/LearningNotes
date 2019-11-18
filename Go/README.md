@@ -2,6 +2,8 @@
 ## Comment
 ```go
 //This is a comment line
+```
+```go
 /*
 This is a comment segment
 */
@@ -50,9 +52,9 @@ func swap(x, y string) (string, string) {
 ```
 Named return value with naked return:
 ```go
-func split(sum int) (x, y int) {
+func split(sum int) (x, y int) { //x, y are named return value
 	x = sum * 4 / 9
 	y = sum - x
-	return
+	return //return x, y automatically
 }
 ```
