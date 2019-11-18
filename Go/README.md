@@ -45,7 +45,7 @@ Similar to Python, use `type(varibale)`:
 ## Function
 The variable and function return type is always after the variable name and function name.
 ```go
-func add(x int, y int){
+func add(x int, y int) int{
 	return x + y
 }
 ```
