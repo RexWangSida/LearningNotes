@@ -30,3 +30,9 @@ func add(x int, y int){
 	return x + y
 }
 ```
+two or more consecutive named function parameters share a type:
+```go
+func add(x, y int){
+	return x + y
+}
+```
