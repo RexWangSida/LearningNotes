@@ -26,10 +26,14 @@ import (
 )
 ```
 ## Variable
+`var` statement declares variables in Go
+```go
+var
+```
 Variables declaration: variable type after variable name(inverse of most languages).
 ```go
-x,y int
-z [10]int
+var x,y int
+var z [10]int
 ```
 ## Function
 The variable and function return type is always after the variable name and function name.
