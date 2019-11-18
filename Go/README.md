@@ -63,7 +63,9 @@ func split(sum int) (x, y int) { //x, y are named return value
 }
 ```
 `:=` Short assignment is a substitute to `var` which omits types **only inside functions**:
+```go
 func print() {
 	i, j := 1, 2
 	fmt.Println(i,j)
 }
+```
