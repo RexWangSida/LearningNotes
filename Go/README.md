@@ -88,8 +88,8 @@ func print() {
 	fmt.Println(i,j)
 }
 ```
-## For Loop
-`for` defines For Loops in Go
+## For & While Loop
+`for` defines For Loops in Go:
 ```go
 sum := 0
 for i := 0; i < 10; i++ {
@@ -100,6 +100,13 @@ For loop on the operator:
 ```go
 sum := 1
 for ; sum < 1000; {
+	sum += sum
+}
+```
+While loop in Go is expressed by `for`:
+```go
+sum := 1
+for sum < 1000{
 	sum += sum
 }
 ```
