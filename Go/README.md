@@ -110,3 +110,14 @@ for sum < 1000{
 	sum += sum
 }
 ```
+Infinite Loop:
+```go
+for{
+	//...
+}
+//same as
+/* while (true){
+	...
+}
+in other languages
+*/
