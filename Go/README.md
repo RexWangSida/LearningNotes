@@ -115,7 +115,9 @@ Infinite Loop:
 for{
 	//...
 }
+
 //same as-------------------------------------------------------------------------------
+
 /* while (true){
 	...
 }
@@ -129,12 +131,15 @@ Conditionals:
   	return v
   }
   ```
-  - If with short statement, **the short statement will execute before condition check**:
+  - If with short statement, **the short statement will execute before condition check, variables declared by the statement are only in scope until the end of the if**:
   ```go
   if v := math.Pow(x, n); v < lim {   // v := math.Pow(x, n); will execute before the if statement check
   	return v
   }
+  //variable v is not accessible here!
+  
   //similar to-------------------------------------------------------------------------------------------
+  
   v := math.Pow(x, n)
   if v < lim {
   	return v
