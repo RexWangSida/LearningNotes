@@ -131,7 +131,12 @@ Conditionals:
   ```
   - If with short statement, **the short statement will execute before condition check**:
   ```go
-  if v := math.Pow(x, n); v < lim {
+  if v := math.Pow(x, n); v < lim {   // v := math.Pow(x, n); will execute before the if statement check
+  	return v
+  }
+  //similar to
+  v := math.Pow(x, n)
+  if v < lim {
   	return v
   }
   ```
