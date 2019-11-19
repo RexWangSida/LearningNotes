@@ -88,3 +88,11 @@ func print() {
 	fmt.Println(i,j)
 }
 ```
+## For Loop
+`for` defines For Loops in Go
+```go
+sum := 0
+for i := 0; i < 10; i++ {
+	sum += i
+}
+```
