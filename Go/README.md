@@ -41,7 +41,19 @@ Variables without explicit initializations will be given zero value:
   - **""** empty string for `string`
 ## Type Conversion
 Similar to Python, use `type(varibale)`:
-
+```go
+func main() {
+	var x, y int = 3, 4
+	var f float64 = math.Sqrt(float64(x*x + y*y))
+	var z uint = uint(f)
+	fmt.Println(x, y, z)
+}
+```
+## Constant
+`const` declares constants in Go
+```go
+const i = 10
+```
 ## Function
 The variable and function return type is always after the variable name and function name.
 ```go
