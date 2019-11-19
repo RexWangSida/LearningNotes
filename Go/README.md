@@ -115,7 +115,7 @@ Infinite Loop:
 for{
 	//...
 }
-//same as
+//same as-------------------------------------------------------------------------------
 /* while (true){
 	...
 }
@@ -134,7 +134,7 @@ Conditionals:
   if v := math.Pow(x, n); v < lim {   // v := math.Pow(x, n); will execute before the if statement check
   	return v
   }
-  //similar to
+  //similar to-------------------------------------------------------------------------------------------
   v := math.Pow(x, n)
   if v < lim {
   	return v
