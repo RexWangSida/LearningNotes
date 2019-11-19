@@ -69,7 +69,7 @@ func split(sum int) (x, y int) { //x, y are named return value
 	return //naked return: returns x, y automatically
 }
 ```
-`:=` Short assignment is a substitute to `var` which omits types. `:=` **only used inside functions**:
+`:=` Short assignment is a substitute to `var` which omits types. `:=` **only used inside functions because every statement outside must begin with a key word(var, func, ...)**:
 ```go
 func print() {
 	i, j := 1, 2
