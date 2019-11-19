@@ -96,3 +96,10 @@ for i := 0; i < 10; i++ {
 	sum += i
 }
 ```
+For loop on the operator:
+```go
+sum := 1
+for ; sum < 1000; {
+	sum += sum
+}
+```
