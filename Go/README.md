@@ -154,7 +154,7 @@ Conditionals:
   ```go
   func main() {
   	defer fmt.Println("world")
-
+	
 	fmt.Println("hello")
   }
   //prints hello\nworld
