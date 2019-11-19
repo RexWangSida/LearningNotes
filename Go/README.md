@@ -159,3 +159,15 @@ Conditionals:
   }
   //prints hello\nworld
   ```
+  The defer statements are pushed to and poped from a stack:
+  ```go
+  func main() {
+	fmt.Println("counting")
+
+	for i := 0; i < 10; i++ {
+		defer fmt.Println(i)
+	}
+
+	fmt.Println("done")
+  }
+  ```
