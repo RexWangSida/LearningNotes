@@ -134,7 +134,7 @@ Conditionals:
   	return 1
   }
   ```
-  - If with short statement, **the short statement will execute before condition check, variables declared by the statement are only in scope until the end of the if**:
+  - If with short statement, **the short statement will execute before condition check, variables declared by the statement are only in scope until the end of the if. Variables that are accessible in If is also accessible in Else. Therefore, the variable declared in the short statment is also accessible in else.**:
   ```go
   if v := math.Pow(x, n); v < lim {   // v := math.Pow(x, n); will execute before the if statement check
   	return v
@@ -149,4 +149,3 @@ Conditionals:
   }
   //variable v is accessible here!
   ```
-  **variables that are accessible in If is also accessible in Else. Therefore, the variable declared in the short statment is also accessible in else.**
