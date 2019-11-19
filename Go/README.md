@@ -121,3 +121,17 @@ for{
 }
 in other languages
 */
+```
+Conditionals:
+  - If:
+  ```go
+  if v < lim {
+  	return v
+  }
+  ```
+  - If with short statement, **the short statement will execute before condition check**:
+  ```go
+  if v := math.Pow(x, n); v < lim {
+  	return v
+  }
+  ```
