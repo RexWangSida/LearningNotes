@@ -138,10 +138,11 @@ Conditionals:
   }
   //variable v is not accessible here!
   
-  //similar to-------------------------------------------------------------------------------------------
+  //similar but there's difference on scope-------------------------------------------------------------------------------------------
   
   v := math.Pow(x, n)
   if v < lim {
   	return v
   }
+  //variable v is accessible here!
   ```
