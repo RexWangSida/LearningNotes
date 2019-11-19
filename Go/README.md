@@ -149,3 +149,13 @@ Conditionals:
   }
   //variable v is accessible here!
   ```
+  ## Defer Statement
+  Any statement in a function after `defer` will execute after the function returns:
+  ```go
+  func main() {
+  	defer fmt.Println("world")
+
+	fmt.Println("hello")
+  }
+  //prints hello\nworld
+  ```
