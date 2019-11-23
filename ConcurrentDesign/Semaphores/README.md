@@ -9,7 +9,7 @@ V(s): <s := s + 1>---------------------------------signal operation
 ## Semaphore in Python
 * Basics
 ```python
-from threading import Thread, Semaphore
+from threading import Semaphore
 s = Semaphore(1)
 s.acquire() ## wait
 s.release() ## signal
