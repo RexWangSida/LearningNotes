@@ -1,4 +1,5 @@
 # Semaphore
+* A single binary semaphore is sufficient for mutual exclusion of many processes.
 ## Basics
 ```Algorithm
 var s: semaphore = init
