@@ -1,5 +1,4 @@
 # Semaphore
-* A single binary semaphore is sufficient for mutual exclusion of many processes.
 ## Basics
 ```Algorithm
 var s: semaphore = init
@@ -7,14 +6,14 @@ P(s): <await s > 0 then s := s - 1>----------------wait operation
 V(s): <s := s + 1>---------------------------------signal operation
 ```
 ## Semaphore in Python
-* Basics
 ```python
 from threading import Semaphore
 s = Semaphore(1)
 s.acquire() ## wait
 s.release() ## signal
 ```
-* Example
+## Semaphore for Mutual Exclusion
+* A single binary semaphore(mutex) is sufficient for mutual exclusion of many processes, acts the same as mutual exclusion lock on critical section.
 ```python
 from threading import Thread, Semaphore
 from time import sleep
@@ -39,4 +38,28 @@ class Pong(Thread):
 s = Semaphore(1)             # create semaphore
 ping = Ping(); pong = Pong() # create new threads
 ping.start(); pong.start()   # run threads
+```
+## Semaphore for Barrier Synchronization
+```python
+from threading import Thread, Semaphore
+from time import sleep
+from sys import stdout
+
+class Ping(Thread):
+    def run(self):
+        while True:
+            stdout.write('ping\n'); sleep(2)    # task
+            barrier1.release()                  # signal
+            barrier2.acquire()                  # wait
+
+class Pong(Thread):
+    def run(self):
+        while True:
+            stdout.write('pong\n'); sleep(4)    # task
+            barrier2.release()                  # signal
+            barrier1.acquire()                  # wait
+
+barrier1, barrier2 = Semaphore(0), Semaphore(0) # create semaphores
+ping = Ping(); pong = Pong()                    # create new threads
+ping.start(); pong.start()                      # run threads
 ```
