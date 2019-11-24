@@ -14,6 +14,16 @@ s.release() ## signal
 ```
 ## Semaphore for Mutual Exclusion
 * A single binary semaphore(mutex) is sufficient for mutual exclusion of many processes, acts the same as mutual exclusion lock on critical section.
+```algorithm
+var mutex: semaphore = 1
+
+process CS(i: 0 .. N – 1)
+    while true do
+        P(mutex)
+        critical section
+        V(mutex)
+        noncritical section
+```
 ```python
 from threading import Thread, Semaphore
 from time import sleep
@@ -40,6 +50,32 @@ ping = Ping(); pong = Pong() # create new threads
 ping.start(); pong.start()   # run threads
 ```
 ## Semaphore for Barrier Synchronization
+
+```
+var barrier1, barrier2: semaphore = 0, 0
+```
+<div style="display:table">
+  <div style = "display:table-cell" >
+​
+```algorithm
+process worker1
+    while true do
+        task 1
+        V(barrier1)
+        P(barrier2)
+```
+  </div>
+  <div style = "display:table-cell; border-left:0px solid white">
+​
+```algorithm
+process worker2
+    while true do
+        task 2
+        V(barrier2)
+        P(barrier1)
+```
+  </div>
+</div>
 ```python
 from threading import Thread, Semaphore
 from time import sleep
