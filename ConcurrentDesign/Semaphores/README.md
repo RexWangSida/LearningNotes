@@ -149,7 +149,7 @@ class Consumer(Thread):
             print(buf)
             empty.release()
 
-empty, full = Semaphore(10), Semaphore(0)     # create semaphores
+empty, full = Semaphore(4), Semaphore(0)     # create semaphores
 for i in range(4):
     p_l.append(Producer())
     c_l.append(Consumer())
