@@ -120,7 +120,7 @@ producer = Producer(); consumer = Consumer() # create new threads
 producer.start(); consumer.start()           # run threads
 ```
 ### Example of Barrier Synchronization -- Multiple Producer & Multiple Consumer
-* This example is known as **Bounded buffer**
+* This example is known as **Bounded Buffers**
 ```python
 from threading import Thread,Semaphore
 buf = []
