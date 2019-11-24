@@ -90,3 +90,32 @@ barrier1, barrier2 = Semaphore(0), Semaphore(0) # create semaphores
 ping = Ping(); pong = Pong()                    # create new threads
 ping.start(); pong.start()                      # run threads
 ```
+### Example of Barrier Synchronization -- Producer & Consumer
+```python
+from threading import Thread, Semaphore
+from time import sleep
+from sys import stdout
+
+class Producer(Thread):
+    def run(self):
+        global buf ; n = 0
+        while True:
+            n += 1 ; sleep(4)                # produce
+            stdout.write('producing' + str(n) + '\n')
+            empty.acquire()                  # wait
+            buf = n                          # deposit
+            full.release()                   # signal
+
+class Consumer(Thread):
+    def run(self):
+        global buf
+        while True:
+            full.acquire()                   # wait
+            data = buf                       # fetch
+            empty.release()                  # signal
+            stdout.write('fetching' + str(data) + '\n')
+
+empty, full = Semaphore(1), Semaphore(0)     # create semaphores
+producer = Producer(); consumer = Consumer() # create new threads
+producer.start(); consumer.start()           # run threads
+```
