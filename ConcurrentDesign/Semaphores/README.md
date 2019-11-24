@@ -51,31 +51,29 @@ ping.start(); pong.start()   # run threads
 ```
 ## Semaphore for Barrier Synchronization
 
-```
+```algorithm
 var barrier1, barrier2: semaphore = 0, 0
-```
+
 <div style="display:table">
   <div style = "display:table-cell" >
-​
-```algorithm
+
 process worker1
     while true do
         task 1
         V(barrier1)
         P(barrier2)
-```
+
   </div>
   <div style = "display:table-cell; border-left:0px solid white">
-​
-```algorithm
+
 process worker2
     while true do
         task 2
         V(barrier2)
         P(barrier1)
-```
   </div>
 </div>
+```
 ```python
 from threading import Thread, Semaphore
 from time import sleep
