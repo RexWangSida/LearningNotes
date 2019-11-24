@@ -144,7 +144,7 @@ class Consumer(Thread):
         while True:
             full.acquire()
             data = buf[-1]
-            buf.remove(data)
+            buf.pop(-1)
             print('fetching' + str(data) + '\n')
             print(buf)
             empty.release()
