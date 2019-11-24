@@ -119,3 +119,45 @@ empty, full = Semaphore(1), Semaphore(0)     # create semaphores
 producer = Producer(); consumer = Consumer() # create new threads
 producer.start(); consumer.start()           # run threads
 ```
+### Example of Barrier Synchronization -- Multiple Producer & Multiple Consumer
+* This example is known as **Bounded buffer**
+```python
+from threading import Thread,Semaphore
+buf = []
+p_l = []
+c_l = []
+class Producer(Thread):
+    def run(self):
+        global buf
+        n = 0
+        while True:
+            n += 1
+            empty.acquire()
+            print('producing' + str(n) + '\n')
+            buf.append(n)
+            print(buf)
+            full.release()
+
+class Consumer(Thread):
+    def run(self):
+        global buf
+        while True:
+            full.acquire()
+            data = buf[-1]
+            buf.remove(data)
+            print('fetching' + str(data) + '\n')
+            print(buf)
+            empty.release()
+
+empty, full = Semaphore(10), Semaphore(0)     # create semaphores
+for i in range(4):
+    p_l.append(Producer())
+    c_l.append(Consumer())
+for i in range(4):
+    p_l[i].start()
+    c_l[i].start()
+for i in range(4):
+    p_l[i].join()
+    c_l[i].join()
+            
+```
