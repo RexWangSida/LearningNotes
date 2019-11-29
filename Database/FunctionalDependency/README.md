@@ -1,4 +1,4 @@
-### Functional Dependency(FD)
+# Functional Dependency(FD)
 - FD is an assertion about the relation, such that in **R, X → Y**.
   - X functionally determines Y
   - a value of Y is bounded to a value of X
