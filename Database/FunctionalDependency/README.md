@@ -7,7 +7,6 @@
   - R = (ABCD...)
   - F = {AB → CD, C → D, ...} holds on R
 - Right-hand side can be splited or combined
-
 ```
 (AB → CD holds for R) ≡ (AB → C and AB → D holds for R)
 ```
@@ -18,3 +17,7 @@
     - **Trivial** if {B1, B2, ..., Bn} ⊆ {A1, A2, ..., An} (subset)
     - **Non-trivial** if {A1, A2, ..., An} - {B1, B2, ..., Bn} ≠ Ø
     - **Completely Non-trivial** if {A1, A2, ..., An} ∩ {B1, B2, ..., Bn} = Ø
+  - Trival FDs can be deleted
+```
+AB → AD ≡ AB → D
+```
