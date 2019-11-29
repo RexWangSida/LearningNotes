@@ -33,7 +33,7 @@ AB → AD ≡ AB → D
   - **Decomposition**: X → YZ ⇒ X → Y ∧ X → Z
 ## Closure of FD
   - F is a set of FDs
-  - F^+ is a **closure*** of F which is the set of FDs can be derived from F
+  - F+ is a **closure*** of F which is the set of FDs can be derived from F
 ## Minimal Cover (Minimal Basis)
   - F and G are FDs
   - F is a minimal cover of G if F is the **smallest set** of FDs that cover G
