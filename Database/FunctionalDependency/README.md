@@ -8,5 +8,7 @@
   - F = {AB → CD, C → D, ...} holds on R
 - Right-hand side can be splited or combined
 
-```(AB → CD holds for R) ≡ (AB → C and AB → D holds for R)```
+```
+(AB → CD holds for R) ≡ (AB → C and AB → D holds for R)
+```
   - **Left-hand side cannot be splited**
