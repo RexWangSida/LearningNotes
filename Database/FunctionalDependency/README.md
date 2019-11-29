@@ -24,3 +24,10 @@
 ```
 AB → AD ≡ AB → D
 ```
+## Axioms for FDs
+  - X, Y, Z sets of attributes
+  -**Reflexivity**: Y ⊆ X ⇒ X → Y
+  -**Augmentation**: X → Y ⇒ XZ → YZ
+  -**Transitivity**: X → Y ∧ Y → Z ⇒ X → Z
+  -**Union**: X → Y ∧ X → Z ⇒ X → YZ
+  -**Decomposition**: X → YZ ⇒ X → Y ∧ X → Z
