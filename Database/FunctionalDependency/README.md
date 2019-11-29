@@ -11,6 +11,9 @@
 (AB → CD holds for R) ≡ (AB → C and AB → D holds for R)
 ```
   - **Left-hand side cannot be splited**
+  
+- FDs are a generalization of keys
+  - Superkey: X → R //Superkey X determines all attributes of relation R
 ## Trivial FDs
   - A → A always holds
   - A1A2...An → B1B2...Bn is:
