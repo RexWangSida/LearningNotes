@@ -12,3 +12,9 @@
 (AB → CD holds for R) ≡ (AB → C and AB → D holds for R)
 ```
   - **Left-hand side cannot be splited**
+## Trivial FDs
+  - A → A always holds
+  - A1A2...An → B1B2...Bn is:
+    - **Trivial** if {B1, B2, ..., Bn} ⊆ {A1, A2, ..., An} (subset)
+    - **Non-trivial** if {A1, A2, ..., An} - {B1, B2, ..., Bn} ≠ Ø
+    - **Completely Non-trivial** if {A1, A2, ..., An} ∩ {B1, B2, ..., Bn} = Ø
