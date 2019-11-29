@@ -31,3 +31,10 @@ AB → AD ≡ AB → D
   - **Transitivity**: X → Y ∧ Y → Z ⇒ X → Z
   - **Union**: X → Y ∧ X → Z ⇒ X → YZ
   - **Decomposition**: X → YZ ⇒ X → Y ∧ X → Z
+## Minimal Cover (Minimal Basis)
+  - F and G are FDs
+  - F is a minimal cover of G if F is the **smallest set** of FDs that cover G
+  - **Form a Minimal Cover**:
+    - Decompose RHS
+    - Repeatedly try to remove RHS
+    - Repeatedly try to remove LHS
