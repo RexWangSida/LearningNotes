@@ -8,4 +8,4 @@
   - **Failed** - after the discovery that normal execution can no longer procceed
   - **Aborted** - after the traction fails the database restores to its state prior to the start of the transaction, two options after aborted: restart / kill
   - **Committed** - after successful completion
-<image src = "./src/state.jpg"></image>
+<image src = "./src/state.jpg" size = 0.5></image>
