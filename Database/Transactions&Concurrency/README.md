@@ -9,3 +9,7 @@
   - **Aborted** - after the traction fails the database restores to its state prior to the start of the transaction, two options after aborted: restart / kill
   - **Committed** - after successful completion
 <img src = "./src/state.jpg" height = 50% width = 50%></img>
+- **Properties of a transaction** ensured by DBMS:
+  - **Atomicity** - inconsistent state should not be visible to users, database keeps track of old consistent values and restores values if a transaction fails
+  - **Consistency** - A transaction must take the database from consistent state to consistent state
+  - **isolation** - 
