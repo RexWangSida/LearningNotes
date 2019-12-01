@@ -32,7 +32,7 @@
     - operate on same item
     - at least one of them is write
   - **Conflict Serializable**: if it can be transformed into a serial schedule by swapping non-conflicting operations.
-  - **View Serializable**: if it is **view equivalent**(initial read, final write, update read) to a serial schedule.(every conflict-serializable is a view srializable)
-  - **Recoverable**: 
+  - **View Serializable**: if it is **view equivalent**(initial read, final write, update read) to a serial schedule.(every conflict-serializable is a view srializable).
+  - **Recoverable**: if one trasaction commits only after the transaction it depends(reads from) on commits.
   
-<img src = "./src/recover.png" height = 40% width = 40%></img>
+<img src = "./src/recover.png" height = 60% width = 60%></img>
