@@ -26,4 +26,4 @@
   <img src = "./src/interleav.png" height = 40% width = 40%></img>
   - **Schedule**:
   
-  <img src = "./src/interleav.png" height = 40% width = 40%></img>
+  <img src = "./src/schedule.png" height = 40% width = 40%></img>
