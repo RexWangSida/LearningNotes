@@ -26,7 +26,7 @@
 <img src = "./src/interleav.png" height = 40% width = 40%></img>
   - **Schedule**:
   
-<img src = "./src/schedule.png" height = 80% width = 80%></img>
+<img src = "./src/schedule.png" height = 50% width = 50%></img>
   - **Conflict Operation**: 
     - belong to different transactions 
     - operate on same item
@@ -35,7 +35,7 @@
   - **View Serializable**: if it is **view equivalent**(initial read, final write, update read) to a serial schedule.(every conflict-serializable is a view srializable).
   - **Recoverable**: if one trasaction commits only after the transaction that it depends(reads from) on commits.
   
-<img src = "./src/recover.png" height = 70% width = 70%></img>
+<img src = "./src/recover.png" height = 50% width = 50%></img>
   - **Avoid Cascading Aborts(ACA) or Cascadeless**: if one trasaction commits only before the transaction that depends on it start to read.
 
 <img src = "./src/aca.png" height = 50% width = 50%></img>
