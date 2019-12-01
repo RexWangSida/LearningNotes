@@ -20,10 +20,10 @@
     schedule must end with Abort or Commit
   - **Serial Execution**:
   
-  <img src = "./src/serial.png" height = 20% width = 20%></img>
+<img src = "./src/serial.png" height = 20% width = 20%></img>
   - **Interleaved Execution**:
   
-  <img src = "./src/interleav.png" height = 40% width = 40%></img>
+<img src = "./src/interleav.png" height = 40% width = 40%></img>
   - **Schedule**:
   
-  <img src = "./src/schedule.png" height = 40% width = 40%></img>
+<img src = "./src/schedule.png" height = 80% width = 80%></img>
