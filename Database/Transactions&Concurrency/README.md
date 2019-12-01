@@ -12,4 +12,13 @@
 - **Properties of a transaction** ensured by DBMS:
   - **Atomicity** - inconsistent state should not be visible to users, database keeps track of old consistent values and restores values if a transaction fails
   - **Consistency** - A transaction must take the database from consistent state to consistent state
-  - **isolation** - 
+  - **Isolation** - Any one transaction can be isolated from other transaction
+  - **Durability** - Once a transaction completes successfully, all the updates persist
+## Schedule of Transactions
+  - R(O) denotes read of object O
+    W(O) denotes write of object O
+    schedule must end with Abort or Commit
+  - **Serial Execution**:
+  <img src = "./src/serial.jpg" height = 50% width = 50%></img>
+  - **Interleaved Execution**:
+  <img src = "./src/interleave.jpg" height = 50% width = 50%></img>
