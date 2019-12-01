@@ -34,4 +34,5 @@
   - **Conflict Serializable**: if it can be transformed into a serial schedule by swapping non-conflicting operations.
   - **View Serializable**: if it is **view equivalent**(initial read, final write, update read) to a serial schedule.(every conflict-serializable is a view srializable)
   - **Recoverable**: 
-<img src = "./src/recover.png" height = 80% width = 80%></img>
+  
+<img src = "./src/recover.png" height = 40% width = 40%></img>
