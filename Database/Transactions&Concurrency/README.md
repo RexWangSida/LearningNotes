@@ -38,4 +38,4 @@
 <img src = "./src/recover.png" height = 70% width = 70%></img>
   - **Avoid Cascading Aborts(ACA) or Cascadeless**: if one trasaction commits only before the transaction that depends on it start to read.
 
-<img src = "./src/aca.png" height = 70% width = 70%></img>
+<img src = "./src/aca.png" height = 50% width = 50%></img>
