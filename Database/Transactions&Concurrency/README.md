@@ -19,6 +19,8 @@
     W(O) denotes write of object O
     schedule must end with Abort or Commit
   - **Serial Execution**:
+  
   <img src = "./src/serial.png" height = 20% width = 20%></img>
   - **Interleaved Execution**:
+  
   <img src = "./src/interleav.png" height = 50% width = 50%></img>
