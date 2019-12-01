@@ -24,5 +24,6 @@
   - **Interleaved Execution**:
   
   <img src = "./src/interleav.png" height = 40% width = 40%></img>
-  - **Serial Schedule**:
+  - **Schedule**:
   
+  <img src = "./src/interleav.png" height = 40% width = 40%></img>
