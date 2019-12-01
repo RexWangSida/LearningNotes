@@ -27,3 +27,8 @@
   - **Schedule**:
   
 <img src = "./src/schedule.png" height = 80% width = 80%></img>
+  - **Conflict Operation**: 
+    - belong to different transactions 
+    - operate on same item
+    - at least one of them is write
+  - **Conflict Serializable**: if it can be transformed into a serial schedule by swapping non-conflicting operations.
