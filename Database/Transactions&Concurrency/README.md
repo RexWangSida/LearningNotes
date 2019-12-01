@@ -14,7 +14,7 @@
   - **Consistency** - A transaction must take the database from consistent state to consistent state
   - **Isolation** - Any one transaction can be isolated from other transaction
   - **Durability** - Once a transaction completes successfully, all the updates persist
-## Schedule of Transactions
+## "Schedule of Transactions"[https://www.geeksforgeeks.org/types-of-schedules-in-dbms/]
   - R(O) denotes read of object O
     W(O) denotes write of object O
     schedule must end with Abort or Commit
@@ -23,4 +23,6 @@
   <img src = "./src/serial.png" height = 20% width = 20%></img>
   - **Interleaved Execution**:
   
-  <img src = "./src/interleav.png" height = 50% width = 50%></img>
+  <img src = "./src/interleav.png" height = 40% width = 40%></img>
+  - **Serial Schedule**:
+  
