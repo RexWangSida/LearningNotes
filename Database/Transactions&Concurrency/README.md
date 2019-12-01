@@ -33,6 +33,9 @@
     - at least one of them is write
   - **Conflict Serializable**: if it can be transformed into a serial schedule by swapping non-conflicting operations.
   - **View Serializable**: if it is **view equivalent**(initial read, final write, update read) to a serial schedule.(every conflict-serializable is a view srializable).
-  - **Recoverable**: if one trasaction commits only after the transaction it depends(reads from) on commits.
+  - **Recoverable**: if one trasaction commits only after the transaction that it depends(reads from) on commits.
   
-<img src = "./src/recover.png" height = 60% width = 60%></img>
+<img src = "./src/recover.png" height = 70% width = 70%></img>
+  - **Avoid Cascading Aborts(ACA) or Cascadeless**: if one trasaction commits only before the transaction that depends on it start to read.
+
+<img src = "./src/aca.png" height = 70% width = 70%></img>
