@@ -19,3 +19,8 @@ Bootstrap CDN is an online host
   </body>
 </html>
 ```
+## Using Bootstrap
+Bootstrap is used by specifying classes
+```html
+<button class="btn btn-success btn-lg" type="button" name="">
+```
