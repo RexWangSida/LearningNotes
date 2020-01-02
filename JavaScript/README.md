@@ -14,3 +14,9 @@ others same, division in JS is true division
 ```Javascript
 2/5   //result is 0.4
 ```
+- ### Strings
+```Javascript
+"Js".length   // gives the length of the 
+"Js" + "Ok"   // concatenate two strings
+"Js"[0]       // index
+```
