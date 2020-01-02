@@ -4,3 +4,8 @@ pop up a window with a string in the browser
 ```Javascript
 alert("Hello World!")
 ```
+- ### Comment
+same as most languages
+```Javascript
+// this is a line of comment
+```
