@@ -20,3 +20,8 @@ others same, division in JS is true division
 "Js" + "Ok"   // concatenate two strings
 "Js"[0]       // index
 ```
+- ### Variable
+declare a variable using keyword `var` and initialize it
+```Javascript
+var bankAccount = 100
+```
