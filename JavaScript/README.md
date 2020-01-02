@@ -9,3 +9,8 @@ same as most languages
 ```Javascript
 // this is a line of comment
 ```
+- ### Calculation
+others same, division in JS is true division
+```Javascript
+2/5   //result is 0.4
+```
