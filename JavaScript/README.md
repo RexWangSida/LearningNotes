@@ -2,7 +2,7 @@
 - ### alert
 pop up a window with a string in the browser
 ```Javascript
-alert("Hello World!")
+alert("Hello World!");
 ```
 - ### Comment
 same as most languages
@@ -12,16 +12,20 @@ same as most languages
 - ### Calculation
 others same, division in JS is true division
 ```Javascript
-2/5   //result is 0.4
+2/5;   //result is 0.4
 ```
 - ### Strings
 ```Javascript
-"Js".length   // gives the length of the 
-"Js" + "Ok"   // concatenate two strings
-"Js"[0]       // index
+"Js".length;   // gives the length of the 
+"Js" + "Ok";   // concatenate two strings
+"Js"[0];       // index
 ```
 - ### Variable
 declare a variable using keyword `var` and initialize it
 ```Javascript
-var bankAccount = 100
+var bankAccount = 100;
+```
+- ### Console Output
+```Javascript
+console.log("Hi");
 ```
