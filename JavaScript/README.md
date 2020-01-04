@@ -4,6 +4,11 @@ pop up a window with a string in the browser
 ```Javascript
 alert("Hello World!");
 ```
+- ### prompt
+pop up a window to get a string as input
+```Javascript
+var value = prompt("Enter a value: ");
+```
 - ### Comment
 same as most languages
 ```Javascript
