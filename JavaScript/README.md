@@ -52,7 +52,7 @@ var bankAccount = 100;
 console.log("Hi");
 ```
 - ### Type Conversion
-Js supports auto type conversion when doing comparison with `==`, `===` will check for type equality
+Js supports auto type conversion when doing comparison with `==`, `===` will check for both value and type equality
 ```Javascript
 "1" == 1;   //true
 "1" === 1;  //false
