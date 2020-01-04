@@ -1,3 +1,20 @@
+## Connect JS to HTML
+suppose there is a JS file named `main.js` and it is supposed to be connected to the following html
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="./main.js">
+    </script>
+  </head>
+  <body>
+    
+  </body>
+</html>
+```
+
 ## Syntax
 - ### alert
 pop up a window with a string in the browser
@@ -34,21 +51,10 @@ var bankAccount = 100;
 ```Javascript
 console.log("Hi");
 ```
-- ### Connect JS to HTML
-suppose there is a JS file named `main.js` and it is supposed to be connected to the following html
-```html
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <script src="./main.js">
-    </script>
-  </head>
-  <body>
-    
-  </body>
-</html>
+- ### Type Conversion
+Js supports auto type conversion when doing comparison with `==`, `===` will check for type equality
+```Javascript
+"1" == 1;   //true
+"1" === 1;  //false
 ```
-
 
