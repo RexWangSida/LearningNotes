@@ -1,6 +1,5 @@
 # Docker
-- Virtual Environment
-- Sandbox for individual project
-- Allows the application to run isolated from OS
+- Isolated environment for each container of application
+- No overlapping between each other
 ## [Docker Container](https://www.docker.com/resources/what-container)
 <img src="./src/container.jpg"></img>
