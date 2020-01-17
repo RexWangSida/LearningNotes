@@ -6,7 +6,10 @@
 <img src="./src/container.jpg"></img>
 
 ## Basic Commands:
-#- docker run <image>
+- run an image
+```linux
+docker run <image>
+```
   run the image
 #- docker start <name|id>
 #- docker stop <name|id>
