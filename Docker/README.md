@@ -7,7 +7,7 @@
 
 ## Basic Commands:
 - run an image
-```linux
+```unix
 docker run <image>
 ```
   run the image
