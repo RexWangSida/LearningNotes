@@ -61,3 +61,4 @@ Js supports auto type conversion when doing comparison with `==`, `===` will che
 ```Javascript
 var car = {type:"Toyota", year:1990, model:"Camry"};
 ```
+`car[type]` will get "Toyota"
