@@ -57,4 +57,7 @@ Js supports auto type conversion when doing comparison with `==`, `===` will che
 "1" == 1;   //true
 "1" === 1;  //false
 ```
-
+- ### Objects
+```Javascript
+var car = {type:"Toyota", year:1990, model:"Camry"};
+```
