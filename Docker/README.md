@@ -6,11 +6,23 @@
 <img src="./src/container.jpg"></img>
 
 ## Basic Commands:
-- run an image
-```unix
+- Create a container of the image and start the container
+```
 docker run <image>
 ```
-  run the image
-#- docker start <name|id>
-#- docker stop <name|id>
-#- docker ps []
+- Start an existing container
+```
+docker start <name|id>
+```
+- Stop an running container
+```
+docker stop <name|id>
+```
+- List all running containers, `-a` include stopped containers
+```
+docker ps
+```
+- Remove a container
+```
+docker rm <name|id>
+```
