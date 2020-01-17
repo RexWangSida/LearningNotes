@@ -6,8 +6,8 @@
 <img src="./src/container.jpg"></img>
 
 ## Basic Commands:
-- #docker run <image>
+#- docker run <image>
   run the image
-- #docker start <name|id>
-- #docker stop <name|id>
-- #docker ps []
+#- docker start <name|id>
+#- docker stop <name|id>
+#- docker ps []
