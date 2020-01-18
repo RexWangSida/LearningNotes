@@ -15,3 +15,8 @@ During a grey box test, the person may know how the system components interact b
 ### Functional vs. Non-funtional
 - **Functional Testing**: Testing that checks whether the program provides some specific functionality.
 - **Non-Functional Testing**: Testing that assesses the program on something other than whether it provides some function.
+
+## Fault, Error, Failure
+- **Fault**: A **stable property** of the program that can **cause a failure** to occur.
+- **Error**: A **bad state** of a **running program** that can **cause a failure** to occur.
+- **Failure**: The software does something observably bad.
