@@ -21,7 +21,7 @@ During a grey box test, the person may know how the system components interact b
 - **Error**: A **bad state** of a **running program** that can **cause a failure** to occur.
 - **Failure**: The software does something observably bad.
 
-## Unit Testing vs. System Testing vs. Integration Testing
+## Unit Testing vs. System Testing vs. Integration Testing vs. Acception Testing vs. Regression Testing
 ### Unit Testing
 - locate low-level fault precisely
 - easily conducted by programmer
@@ -40,3 +40,14 @@ During a grey box test, the person may know how the system components interact b
   - Top-down: Modules tested from the entry points and integrated progressively
   - Bottom-up: Modules are progressively integrated and tested from the most elementary ones
 - More **traceble than system test**
+### Acception Testing
+- Work with client to build test case meaningful to them
+- Design by domain experts
+- embodied in a paper script
+- performed by potential users
+- Main intent is to **check if that product will work in a production environment**
+- Much of a validation acticity other tha verification
+### Regression Testing
+- After software release, the test cases are kept for re-use
+- Main intent is to **check that what used to work still does**
+- apply at any scope(unit, system, integration)
