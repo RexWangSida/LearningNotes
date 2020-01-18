@@ -51,3 +51,10 @@ During a grey box test, the person may know how the system components interact b
 - After software release, the test cases are kept for re-use
 - Main intent is to **check that what used to work still does**
 - apply at any scope(unit, system, integration)
+
+## [Five Type of Softwares](https://www.joelonsoftware.com/2002/05/06/five-worlds/)
+- Shrinkwrap(open source; configurable; web-based)
+- Internal
+- Embedded
+- Games
+- Throwaway
