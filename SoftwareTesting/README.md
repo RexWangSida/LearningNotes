@@ -21,7 +21,22 @@ During a grey box test, the person may know how the system components interact b
 - **Error**: A **bad state** of a **running program** that can **cause a failure** to occur.
 - **Failure**: The software does something observably bad.
 
-## Unit Testing
+## Unit Testing vs. System Testing vs. Integration Testing
+### Unit Testing
 - locate low-level fault precisely
 - easily conducted by programmer
 - typically used to a single method
+- **cannot find all problems**, many faults don’t manifest at the unit level at all.
+### System Testing
+- Typically black box Testing
+- test functional and non-functional requirements
+- help to understand non-explicit requirements
+- can be done by a special team
+### Integration Testing
+- Testing interacting classes, modules or subsystem(focus on interactions)
+- Typically, grouping together some units and testing them together using a black-box approach
+- Three **main approach**:
+  - Big Bang: Put everything together then test
+  - Top-down: Modules tested from the entry points and integrated progressively
+  - Bottom-up: Modules are progressively integrated and tested from the most elementary ones
+- More **traceble than system test**
