@@ -20,3 +20,8 @@ During a grey box test, the person may know how the system components interact b
 - **Fault**: A **stable property** of the program that can **cause a failure** to occur.
 - **Error**: A **bad state** of a **running program** that can **cause a failure** to occur.
 - **Failure**: The software does something observably bad.
+
+## Unit Testing
+- locate low-level fault precisely
+- easily conducted by programmer
+- typically used to a single method
