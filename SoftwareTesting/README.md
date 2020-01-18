@@ -11,3 +11,7 @@ During a grey box test, the person may know how the system components interact b
 
 - **Black-box Testing**: Testing without any knowledge of the software’s implementation.(source code inaccessible)
 - **White-box Testing**: sting that systematically uses knowledge of the system to design tests for it.(source code accessible)
+
+### Functional vs. Non-funtional
+- **Functional Testing**: Testing that checks whether the program provides some specific functionality.
+- **Non-Functional Testing**: Testing that assesses the program on something other than whether it provides some function.
