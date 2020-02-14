@@ -24,3 +24,19 @@ Bootstrap is used by specifying classes
 ```html
 <button class="btn btn-success btn-lg" type="button" name="">
 ```
+## Equal Width Columns
+```html
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+  </div>
+</div>
+```
