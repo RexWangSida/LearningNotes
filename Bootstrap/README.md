@@ -1,6 +1,6 @@
 # Bootstrap
 - Framework for Web Development
-## (Connect HTML to Bootstrap using bootstrap CDN)[https://www.bootstrapcdn.com/]
+## [Connect HTML to Bootstrap using bootstrap CDN](https://www.bootstrapcdn.com/)
 Bootstrap CDN is an online host
 ```html
 <!DOCTYPE html>
