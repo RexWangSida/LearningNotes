@@ -19,3 +19,9 @@ h1 --------------------->
     h2 ----------------->
 
 page format will help with search engine to figure out the structure easier ---> display faster
+
+
+## Button types
+- `button`:Just a button. Its effects must be controlled by something else (that is, with JavaScript).
+- `reset`:Resets data in the current form.
+- `submit`:Submits the current form data. (This is default.)
