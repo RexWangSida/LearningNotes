@@ -15,3 +15,7 @@
 
 ## Model-based Testing
 - 
+
+## Fuzz Testing
+- Testing by feeding in random inputs until program crashes or violates assertions.
+- # Test Oracle
