@@ -18,4 +18,6 @@
 
 ## Fuzz Testing
 - Testing by feeding in random inputs until program crashes or violates assertions.
-- # Test Oracle
+- ### Test Oracle
+  - Something tells you whether the test result is good or bad.
+  - Fuzz testing normally does not use test oracle
