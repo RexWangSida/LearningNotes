@@ -14,7 +14,7 @@ This will run the `.jar` file.
 
 ## Kotlin Code Style
 - **Static Typing**
- - does not necessarily require explicit type specification
+   - does not necessarily require explicit type specification
  - e.g. Variable Assignment
  ```kotlin
  val message = "Hello"
