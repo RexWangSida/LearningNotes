@@ -11,3 +11,20 @@ This gives a runnable `.jar` file, `-d` indicates the output path for the file, 
 java -jar hello.jar
 ```
 This will run the `.jar` file.
+
+## Kotlin Code Style
+- **Static Typing**
+ - does not necessarily require explicit type specification
+ - e.g. Variable Assignment
+ ```kotlin
+ val message = "Hello"
+ ```
+ ##### OR
+ ```kotlin
+ val message: String = "Hello"
+ ```
+ ##### OR
+  ```kotlin
+ val message: String
+ message = "Hello"
+ ```
