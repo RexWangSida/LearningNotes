@@ -1,6 +1,6 @@
 # Kotlin
 ## Command Line for Compiling and running the kotlin program
-- Assuming the program is named hello.kt
+- Assuming the program is named _hello.kt_
 ### Compile the file
 ```shell
 kotlinec hello.kt -include-runtime -d hello.jar
