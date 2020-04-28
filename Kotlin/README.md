@@ -13,6 +13,13 @@ java -jar hello.jar
 This will run the `.jar` file.
 
 ## Kotlin Code Style
+- **Comment Style**
+```kotlin
+\\This is comment line
+\*
+This is a comment too
+*\
+```
 - **Static Typing**
    - does not necessarily require explicit type specification
    - e.g. Variable Assignment
