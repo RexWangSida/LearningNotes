@@ -24,14 +24,15 @@ This is a comment too
    - does not necessarily require explicit type specification
    - e.g. Variable Assignment
  ```kotlin
- val message = "Hello"
+ var message = "Hello"
  ```
+   - In this case, once the variable is declared and initialized, the type of the variable is inferred to be that type.
  ##### OR
  ```kotlin
- val message: String = "Hello"
+ var message: String = "Hello"
  ```
  ##### OR
   ```kotlin
- val message: String
+ var message: String
  message = "Hello"
  ```
