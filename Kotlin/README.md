@@ -36,3 +36,11 @@ This is a comment too
  var message: String
  message = "Hello"
  ```
+ ## Kotlin Syntax
+- No `;` needed, `{}` is needed to group statements by blocks
+- **If-Else**
+```kotlin
+//Same as other language, it also supports inline if-else statement like Python
+val msg = if (pts > 80) "well done" else "practice harder!"
+```
+
