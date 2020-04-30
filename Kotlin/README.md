@@ -26,7 +26,7 @@ This is a comment too
  ```kotlin
  var message = "Hello"
  ```
-   - In this case, once the variable is declared and initialized, the type of the variable is inferred to be that type.
+   - **Type Inference**In this case, once the variable is declared and initialized, the type of the variable is inferred to be that type.
  ##### OR
  ```kotlin
  var message: String = "Hello"
