@@ -42,7 +42,7 @@ CREATE TABLE Student(
     GPA REAL
 );
 ```
-- Setting primary key and NULL/NOT NULL
+- Setting **primary key** and **NULL/NOT NULL**
 ```sql
 CREATE TABLE Student(
     SID CHAR(8) PRIMARY KEY,
