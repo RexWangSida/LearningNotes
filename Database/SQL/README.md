@@ -52,3 +52,22 @@ CREATE TABLE Student(
     GPA REAL NULL
 );
 ```
+
+## Data Record Insertion
+- **Using `INSERT INTO` and `VALUES` to create table**
+- Table Example: Products
+  | prod_name | prod_id | prod_price |
+  |-----------|---------|------------|
+  | Shampoo   |P01      | 12         |
+  |Toothpaste |P02      | 13         |
+  |Deodorant  |P03      | 20         |
+  |Toothbrush |P04      | 5          |
+```sql
+/* insert with all values of all columns*/
+INSERT INTO Products
+VALUES (
+  'sugar',
+  'P05',
+  3
+);
+```
