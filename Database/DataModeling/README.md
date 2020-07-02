@@ -6,3 +6,11 @@
 ## Relational vs. Transactional Model
 - **Relational Model:** Allows for easy querying and data manipulation in an easy, logical and intuitive way.
 - **Transactional Model:** Operational database.
+
+## Data Model Components
+- **Entity:** Thing or Object.
+- **Attribute:** A property of an entity.
+- **Relationship:** Describes association among entities.
+  - One-to-many
+  - Many-to-many
+  - One-to-one
