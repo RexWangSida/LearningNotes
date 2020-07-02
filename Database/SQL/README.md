@@ -71,3 +71,11 @@ VALUES (
   3
 );
 ```
+```sql
+/* insert with values of specific columns*/
+INSERT INTO Products (prod_name, prod_id)
+VALUES (
+  'sugar',
+  'P05'
+);
+```
