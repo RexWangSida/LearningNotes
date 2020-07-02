@@ -6,6 +6,7 @@
 - **Using `SELECT` (columns) and `FROM` (table)**
 - Table Example:
   | prod_name |
+  |-----------|
   | Shampoo   |
   |Toothpaste |
   |Deodorant  |
