@@ -24,6 +24,6 @@ FROM Products;
 
 ```sql
 /* retrive the all columns */
-SELECT prod_name
+SELECT *
 FROM Products;
 ```
