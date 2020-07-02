@@ -14,3 +14,7 @@
   - One-to-many
   - Many-to-many
   - One-to-one
+  
+## Keys
+- **Primary Key:** A column(or set of columns) whose values uniquely identify every row in a table.
+- **Attribute:** One or many columns that can be used together to identify a single row in another table.
