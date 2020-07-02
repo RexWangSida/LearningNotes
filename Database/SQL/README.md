@@ -4,10 +4,14 @@
 
 ## Data Retrieval
 - **Using `SELECT` (columns) and `FROM` (table)**
-- Table Example:
+- Table Example: Products
   | prod_name |
   |-----------|
   | Shampoo   |
   |Toothpaste |
   |Deodorant  |
   |Toothbrush |
+```sql
+SELECT prod_name
+FROM Products;
+```
