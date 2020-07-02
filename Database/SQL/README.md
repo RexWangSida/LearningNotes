@@ -27,3 +27,18 @@ FROM Products;
 SELECT *
 FROM Products;
 ```
+## Table Creation
+- **Using `CREATE TABLE` to create table**
+- Built-in Types:
+  - INT or INTEGER
+  - FLOAT or REAL
+  - CHAR(n)
+```sql
+CREATE TABLE Student(
+    SID CHAR(8),
+    Name CHAR(20),
+    Email CHAR(20),
+    Age INTEGER,
+    GPA REAL
+);
+```
