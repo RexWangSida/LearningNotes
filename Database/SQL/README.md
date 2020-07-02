@@ -30,9 +30,9 @@ FROM Products;
 ## Table Creation
 - **Using `CREATE TABLE` to create table**
 - Built-in Types:
-  - INT or INTEGER
-  - FLOAT or REAL
-  - CHAR(n)
+  - **INT** or **INTEGER**
+  - **FLOAT** or **REAL**
+  - **CHAR(n)**
 ```sql
 CREATE TABLE Student(
     SID CHAR(8),
