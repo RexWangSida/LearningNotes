@@ -109,3 +109,6 @@ SELECT prod_price
 FROM Products
 WHERE prod_price = 10 OR prod_price = 12;
 ```
+- **IN** vs. **OR**
+  - Works the same.
+  - **IN** is faster, allows long list of options, and support nested queries.
