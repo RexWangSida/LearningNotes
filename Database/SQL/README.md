@@ -115,5 +115,6 @@ WHERE prod_price = 10 OR prod_price = 12;
 ```sql
 SELECT prod_price, prod_id
 FROM Products
-WHERE prod_price = 10 OR prod_price = 12 AND prod_id = 'P01';
+WHERE NOT prod_price = 10 OR prod_price = 12 AND prod_id = 'P01';
 ```
+- SQL processes **AND** before **OR**
