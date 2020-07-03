@@ -92,5 +92,5 @@ VALUES (
 ```sql
 SELECT prod_price
 FROM Products
-WHERE prod_price =/*Operator*/ 12
+WHERE prod_price =/*Operator*/ 12;
 ```
