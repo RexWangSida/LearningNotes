@@ -81,7 +81,7 @@ VALUES (
 ```
 ## Filtering Queries
 - **Using `WHERE` and Operators to filter a query**
-  - **Operators: =, <>(not equal), >, <, >=, <=, BETWEEN, IS NULL**
+  - **Operators: =, <>(not equal), >, <, >=, <=, BETWEEN, IS NULL, IN, OR, AND**
 - Table Example: Products
   | prod_name | prod_id | prod_price |
   |-----------|---------|------------|
@@ -98,4 +98,14 @@ WHERE prod_price =/*Operator*/ 12;
 SELECT prod_price
 FROM Products
 WHERE prod_price BETWEEN 5 AND 10;
+```
+```sql
+SELECT prod_price
+FROM Products
+WHERE prod_price IN (10, 11, 12);
+```
+```sql
+SELECT prod_price
+FROM Products
+WHERE prod_price = 10 OR prod_price = 12;
 ```
