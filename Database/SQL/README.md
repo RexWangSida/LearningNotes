@@ -79,3 +79,18 @@ VALUES (
   'P05'
 );
 ```
+## Filtering Queries
+- **Using `WHERE` and Operators to filter a query**
+  - **Operators: =, <>(not equal), >, <, >=, <=, BETWEEN, IS NULL**
+- Table Example: Products
+  | prod_name | prod_id | prod_price |
+  |-----------|---------|------------|
+  | Shampoo   |P01      | 12         |
+  |Toothpaste |P02      | 13         |
+  |Deodorant  |P03      | 20         |
+  |Toothbrush |P04      | 5          |
+```sql
+SELECT prod_price
+FROM Products
+WHERE prod_price =/*Operator*/ 12
+```
