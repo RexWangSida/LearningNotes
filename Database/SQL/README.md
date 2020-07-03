@@ -81,7 +81,7 @@ VALUES (
 ```
 ## Filtering Queries
 - **Using `WHERE` and Operators to filter a query**
-  - **Operators: =, <>(not equal), >, <, >=, <=, BETWEEN, IS NULL, IN, OR, AND**
+  - **Operators: =, <>(not equal), >, <, >=, <=, BETWEEN, IS NULL, IN, OR, AND, NOT**
 - Table Example: Products
   | prod_name | prod_id | prod_price |
   |-----------|---------|------------|
@@ -112,3 +112,8 @@ WHERE prod_price = 10 OR prod_price = 12;
 - **IN** vs. **OR**
   - Works the same.
   - **IN** is faster, allows long list of options, and support nested queries.
+```sql
+SELECT prod_price, prod_id
+FROM Products
+WHERE prod_price = 10 OR prod_price = 12 AND prod_id = 'P01';
+```
