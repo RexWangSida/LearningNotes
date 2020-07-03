@@ -118,3 +118,33 @@ FROM Products
 WHERE NOT prod_price = 10 OR prod_price = 12 AND prod_id = 'P01';
 ```
 - SQL processes **AND** before **OR**
+
+## Sorting Queries
+- **Using `ORDER BY` to order a query**
+  - Takes the name of one or more columns
+  - Can sort by a column not retrieved
+  - **Must always be the last clause in a select statement**
+  - Table Example: Products
+  | prod_name | prod_id | prod_price |
+  |-----------|---------|------------|
+  | Shampoo   |P01      | 12         |
+  |Toothpaste |P02      | 13         |
+  |Deodorant  |P03      | 20         |
+  |Toothbrush |P04      | 5          |
+```sql
+SELECT prod_price, prod_id
+FROM Products
+ORDER BY prod_id;
+```
+```sql
+SELECT prod_price, prod_id
+FROM Products
+ORDER BY prod_id, prod_price;
+```
+- Can sort it by column position
+```sql
+/*Sort by 1st and 2nd column*/
+SELECT prod_price, prod_id
+FROM Products
+ORDER BY 1,2;
+```
