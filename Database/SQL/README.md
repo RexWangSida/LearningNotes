@@ -94,3 +94,8 @@ SELECT prod_price
 FROM Products
 WHERE prod_price =/*Operator*/ 12;
 ```
+```sql
+SELECT prod_price
+FROM Products
+WHERE prod_price BETWEEN 5 AND 10;
+```
