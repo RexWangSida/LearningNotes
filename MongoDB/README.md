@@ -1,7 +1,7 @@
 # MongoDB
 https://docs.mongodb.com/manual/reference/method/
 
---use different drivers for different languages
+- use different drivers for different languages
 
 ## Atlas
 - Database as a service
