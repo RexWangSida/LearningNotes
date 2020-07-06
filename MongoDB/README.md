@@ -11,3 +11,9 @@ https://docs.mongodb.com/manual/reference/method/
 ## Filter in MongoDB Compass
 - use `{"id" : "101"}` for specific filters.
 - use `{"amount" : {"gte" : 10, "lt" : 100} }` for range filters, in this case it means 10 <= amount < 100.
+
+## Using MongoDB Shell
+- Show databases
+```shell
+show dbs
+```
