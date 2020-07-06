@@ -29,3 +29,7 @@ use <database name>
 ```shell
 show collections
 ```
+- Show data within a collection
+```shell
+db.<collection name>.find().pretty()
+```
