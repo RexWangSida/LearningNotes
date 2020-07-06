@@ -17,27 +17,27 @@ https://docs.mongodb.com/manual/reference/method/
 
 ## Using MongoDB Shell(after connected with MongoDB Atlas)
 - Show databases
-```shell
+```MongoDB
 show dbs
 ```
 - Load .js file(with database(s)) into the Atlas Cluster
-```shell
+```MongoDB
 load(<.js file name>)
 ```
 - Use a database
-```shell
+```MongoDB
 use <database name>
 ```
 - Show collections in a database
-```shell
+```MongoDB
 show collections
 ```
 - Show data within a collection
-```shell
+```MongoDB
 db.<collection name>.find().pretty()
 ```
 ## Basic CRUD Operations in MongoDB
 ### InsertOne
-```shell
+```MongoDB
 db.<collection name>.insertOne({attr1 : data1, attr2 : data2, ...})
 ```
