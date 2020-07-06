@@ -12,8 +12,12 @@ https://docs.mongodb.com/manual/reference/method/
 - use `{"id" : "101"}` for specific filters.
 - use `{"amount" : {"gte" : 10, "lt" : 100} }` for range filters, in this case it means 10 <= amount < 100.
 
-## Using MongoDB Shell
+## Using MongoDB Shell(after connected with MongoDB Atlas)
 - Show databases
 ```shell
 show dbs
+```
+- load .js file(with database(s)) into the Atlas Cluster
+```shell
+load(<.js file name>)
 ```
