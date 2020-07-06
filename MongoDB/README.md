@@ -17,7 +17,11 @@ https://docs.mongodb.com/manual/reference/method/
 ```shell
 show dbs
 ```
-- load .js file(with database(s)) into the Atlas Cluster
+- Load .js file(with database(s)) into the Atlas Cluster
 ```shell
 load(<.js file name>)
+```
+- Use a database
+```shell
+use <database name>
 ```
