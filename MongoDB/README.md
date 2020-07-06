@@ -25,3 +25,7 @@ load(<.js file name>)
 ```shell
 use <database name>
 ```
+- Show collections in a database
+```shell
+show collections
+```
