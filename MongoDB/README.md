@@ -37,3 +37,7 @@ show collections
 db.<collection name>.find().pretty()
 ```
 ## Basic CRUD Operations in MongoDB
+### InsertOne
+```shell
+db.<collection name>.insertOne({attr1 : data1, attr2 : data2, ...})
+```
