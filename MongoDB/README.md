@@ -41,3 +41,13 @@ db.<collection name>.find().pretty()
 ```MongoDB
 db.<collection name>.insertOne({attr1 : data1, attr2 : data2, ...})
 ```
+### InsertMany
+```MongoDB
+db.<collection name>.insertMany(
+[
+{attr1 : data1, attr2 : data2, ...},
+{attr1 : data1, attr2 : data2, ...},
+{attr1 : data1, attr2 : data2, ...}
+]
+)
+```
