@@ -67,5 +67,8 @@ db.<collection name>.insertMany(
 ```MongoDB
 /* db.<collection name>.find(<query condition>).pretty() */
 db.<collection name>.find({attr1 : data1, attr2 : data2, ...}).pretty()
-
+```
+- If an attribute contains a nested collection, using `.` to specify
+```MongoDB
+db.<collection name>.find({attr1.nestedATTR1 : data1, attr2 : data2, ...}).pretty()
 ```
