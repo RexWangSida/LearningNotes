@@ -62,3 +62,10 @@ db.<collection name>.insertMany(
 ], { "ordered": false }
 )
 ```
+
+### Query
+```MongoDB
+/* db.<collection name>.find(<query condition>).pretty() */
+db.<collection name>.find({attr1 : data1, attr2 : data2, ...}).pretty()
+
+```
