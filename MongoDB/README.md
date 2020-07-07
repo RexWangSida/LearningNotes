@@ -36,7 +36,9 @@ show collections
 ```MongoDB
 db.<collection name>.find().pretty()
 ```
-## Basic CRUD Operations in MongoDB
+## Basic CRUD Operations in MongoDB Shell 
+- `""` is required in Shell but not in Compass
+
 ### InsertOne
 ```MongoDB
 db.<collection name>.insertOne({attr1 : data1, attr2 : data2, ...})
