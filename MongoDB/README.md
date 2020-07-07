@@ -91,5 +91,5 @@ db.<collection name>.find({"attr1.0" : arrayElement1, "attr2" : data2, ...}).pre
 - Using a second parameter in `find()`, `0` for not display, `1` for display
 ```MongoDB
 /* db.<collection name>.find(<query condition>, <projection>).pretty() */
-db.<collection name>.find({"attr1" : data1, "attr2" : data2, ...},  {"attr1 : 0, attr2 : 1"}).pretty()
+db.<collection name>.find({"attr1" : data1, "attr2" : data2, ...},  {"attr1" : 0, "attr2" : 1}).pretty()
 ```
