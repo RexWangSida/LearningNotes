@@ -74,3 +74,11 @@ db.<collection name>.find({"attr1" : data1, "attr2" : data2, ...}).pretty()
 ```MongoDB
 db.<collection name>.find({"attr1.nestedATTR1" : data1, "attr2" : data2, ...}).pretty()
 ```
+- If an attribute contains an array, to find if the data entry of that attribute contains an element
+```MongoDB
+db.<collection name>.find({"attr1" : arrayElement, "attr2" : data2, ...}).pretty()
+```
+- If an attribute contains an array, to find if the data entry is an array of specific elements
+```MongoDB
+db.<collection name>.find({"attr1" : [arrayElement1, arrayElement2], "attr2" : data2, ...}).pretty()
+```
