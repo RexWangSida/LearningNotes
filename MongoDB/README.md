@@ -51,7 +51,7 @@ db.<collection name>.insertMany(
 ]
 )
 ```
-- Making unordered insertMany
+- Making **unordered insertMany**
 ```MongoDB
 db.<collection name>.insertMany(
 [
