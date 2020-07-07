@@ -51,7 +51,8 @@ db.<collection name>.insertMany(
 ]
 )
 ```
-- Making **unordered insertMany**
+- **ordered insertMany** will stop insert once it encounters an error(e.g. duplicate keys) since it runs sequentially
+- Making **unordered insertMany** will insert all good documents and leave the errored ones out
 ```MongoDB
 db.<collection name>.insertMany(
 [
