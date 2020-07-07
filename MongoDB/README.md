@@ -87,3 +87,9 @@ db.<collection name>.find({"attr1" : [arrayElement1, arrayElement2], "attr2" : d
 db.<collection name>.find({"attr1.0" : arrayElement1, "attr2" : data2, ...}).pretty()
 /* "attr1.0" : arrayElement1  means arrayElement1 is at index 0 of attr1*/
 ```
+### Projection with Queries
+- Using a second parameter in `find()`, `0` for not display, `1` for display
+```MongoDB
+/* db.<collection name>.find(<query condition>, <projection>).pretty() */
+db.<collection name>.find({"attr1" : data1, "attr2" : data2, ...},  {"attr1 : 0, attr2 : 1"}).pretty()
+```
