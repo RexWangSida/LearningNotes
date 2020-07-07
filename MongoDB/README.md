@@ -51,3 +51,13 @@ db.<collection name>.insertMany(
 ]
 )
 ```
+- Making unordered insertMany
+```MongoDB
+db.<collection name>.insertMany(
+[
+{attr1 : data1, attr2 : data2, ...},
+{attr1 : data1, attr2 : data2, ...},
+{attr1 : data1, attr2 : data2, ...}
+], { "ordered": false }
+)
+```
