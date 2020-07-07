@@ -4,7 +4,7 @@ https://docs.mongodb.com/manual/reference/method/
 - use different drivers for different languages
 
 ## Atlas
-- Database as a service
+- Cloud Database as a service
 - Store data in the cloud
 - Handles replication: maintain redundant copies of data in different servers(within a cluster) to increase availability
 
