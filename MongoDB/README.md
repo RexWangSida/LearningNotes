@@ -82,3 +82,8 @@ db.<collection name>.find({"attr1" : arrayElement, "attr2" : data2, ...}).pretty
 ```MongoDB
 db.<collection name>.find({"attr1" : [arrayElement1, arrayElement2], "attr2" : data2, ...}).pretty()
 ```
+- If an attribute contains an array, to find if the data entry contains the array element and it is at a specific index of that array
+```MongoDB
+db.<collection name>.find({"attr1.0" : arrayElement1, "attr2" : data2, ...}).pretty()
+/* "attr1.0" : arrayElement1  means arrayElement1 is at index 0 of attr1*/
+```
