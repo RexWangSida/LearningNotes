@@ -126,3 +126,5 @@ db.movieDetails.updateOne(
 
 ## Query Operators
 ### Comparison Operators
+### Element Operators
+### Logical Operators
