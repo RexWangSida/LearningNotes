@@ -93,3 +93,28 @@ db.<collection name>.find({"attr1.0" : arrayElement1, "attr2" : data2, ...}).pre
 /* db.<collection name>.find(<query condition>, <projection>).pretty() */
 db.<collection name>.find({"attr1" : data1, "attr2" : data2, ...},  {"attr1" : 0, "attr2" : 1}).pretty()
 ```
+
+### Updates
+- Using a second parameter in `updateOne()` to update one document
+```MongoDB
+db.<collection name>.updateOne(
+  {<query condition>},
+  {
+  $set: {
+  <update condition>
+  }
+  }
+)
+```
+- `$set` set one or more attributes(if not exist) or update one or more attributes(if exist)
+```MongoDB
+/*example*/
+db.movieDetails.updateOne(
+  { 'title' : 'The Martian'},
+  {
+  $set: {
+    'poster' : 'good'
+  }
+  }
+)
+```
