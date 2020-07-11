@@ -106,7 +106,7 @@ db.<collection name>.updateOne(
   }
 )
 ```
-- `$set` set one or more attributes(if not exist) or update one or more attributes(if exist)
+- `$set` operator set one or more attributes(if not exist) or update one or more attributes(if exist)
 ```MongoDB
 /*example*/
 db.movieDetails.updateOne(
