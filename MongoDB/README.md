@@ -65,7 +65,7 @@ db.<collection name>.insertMany(
 )
 ```
 
-### Query
+### Filter
 ```MongoDB
 /* db.<collection name>.find(<query condition>).pretty() */
 db.<collection name>.find({"attr1" : data1, "attr2" : data2, ...}).pretty()
@@ -87,14 +87,14 @@ db.<collection name>.find({"attr1" : [arrayElement1, arrayElement2], "attr2" : d
 db.<collection name>.find({"attr1.0" : arrayElement1, "attr2" : data2, ...}).pretty()
 /* "attr1.0" : arrayElement1  means arrayElement1 is at index 0 of attr1*/
 ```
-### Projection with Queries
+### Projection with Filter
 - Using a second parameter in `find()`, `0` for not display, `1` for display
 ```MongoDB
 /* db.<collection name>.find(<query condition>, <projection>).pretty() */
 db.<collection name>.find({"attr1" : data1, "attr2" : data2, ...},  {"attr1" : 0, "attr2" : 1}).pretty()
 ```
 
-### Updates
+### Update
 - Using `updateOne()` to update one document
 ```MongoDB
 db.<collection name>.updateOne(
@@ -123,3 +123,6 @@ db.movieDetails.updateOne(
 - Using `replaceOne()` to replace one document with another one
 - Using `deleteOne()` to delete one document
 - Using `deleteMany()` to delete many documents
+
+## Query Operators
+### Comparison Operators
