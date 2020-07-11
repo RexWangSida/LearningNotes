@@ -120,3 +120,6 @@ db.movieDetails.updateOne(
 ```
 - [Other Operators](https://docs.mongodb.com/manual/reference/operator/update/)
 - Using `updateMany()` to update all documents meets the filter condition
+- Using `replaceOne()` to replace one document with another one
+- Using `deleteOne()` to delete one document
+- Using `deleteMany()` to delete many documents
