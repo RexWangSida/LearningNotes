@@ -118,3 +118,4 @@ db.movieDetails.updateOne(
   }
 )
 ```
+- [Other Operators](https://docs.mongodb.com/manual/reference/operator/update/)
