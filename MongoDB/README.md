@@ -95,10 +95,10 @@ db.<collection name>.find({"attr1" : data1, "attr2" : data2, ...},  {"attr1" : 0
 ```
 
 ### Updates
-- Using a second parameter in `updateOne()` to update one document
+- Using `updateOne()` to update one document
 ```MongoDB
 db.<collection name>.updateOne(
-  {<query condition>},
+  {<filter condition>},
   {
   $set: {
   <update condition>
@@ -119,3 +119,4 @@ db.movieDetails.updateOne(
 )
 ```
 - [Other Operators](https://docs.mongodb.com/manual/reference/operator/update/)
+- Using `updateMany()` to update all documents meets the filter condition
