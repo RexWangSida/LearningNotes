@@ -16,3 +16,25 @@
   - range of operation
   - "how much it can do"
 - **Trustability**
+
+## UI Design Goals Trade-off
+- UI cannot satisfy every usability goal to the maximum extent
+- Making the "right" trade-off decisions is critically important to good design
+- Make decision on specific target users
+
+## Measuring UI Design Goals
+- **Learnability & Retention**
+  - Perform experiment:
+    - Ask users who have never seen interface before to perform a task
+
+- **Performance**
+- **Error Rates**
+  - how severe
+  - how easily to recover
+- **Subjective Satisfaction**
+  - how pleasant to use
+- **Accessability**
+- **Functionality**
+  - range of operation
+  - "how much it can do"
+- **Trustability**
