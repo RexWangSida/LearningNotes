@@ -26,8 +26,12 @@
 - **Learnability & Retention**
   - Perform experiment:
     - Ask users who have never seen interface before to perform a task
+    - Measure how long it take
+    - Compute an average
+    - Repeat same process a month later
 
 - **Performance**
+    - How long it takes a user to perform a task
 - **Error Rates**
   - how severe
   - how easily to recover
