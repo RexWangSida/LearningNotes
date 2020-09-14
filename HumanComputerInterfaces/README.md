@@ -31,14 +31,12 @@
     - Repeat same process a month later
 
 - **Performance**
-    - How long it takes a user to perform a task
+   - How long it takes a user to perform a task
+   - Number of clicks/taps required to perform a task
+   - How many tasks can a user accomplish in a time period? e.g. student papers marked per hour
 - **Error Rates**
-  - how severe
-  - how easily to recover
+  - Errors per task, errors per time period
+  - Success rate at completing task (defacto includes error rate)
 - **Subjective Satisfaction**
-  - how pleasant to use
-- **Accessability**
-- **Functionality**
-  - range of operation
-  - "how much it can do"
-- **Trustability**
+  - Surveys can help  make it objective
+
