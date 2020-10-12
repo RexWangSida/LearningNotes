@@ -53,7 +53,8 @@ static void __exithello_4_exit(void){
   printk(KERN_INFO "Goodbye cruel world 4\n");
 }
 // Task specific functions go here.
-/*Macros to be used after defining initand exit functions*/module_init(hello_4_init);
+/*Macros to be used after defining initand exit functions*/
+module_init(hello_4_init);
 module_exit(hello_4_exit);
 MODULE_LICENSE("GPL"); /* Avoidskerneltaintmessage*/
 MODULE_AUTHOR(DRIVER_AUTHOR); /* Who wrote this module? */
