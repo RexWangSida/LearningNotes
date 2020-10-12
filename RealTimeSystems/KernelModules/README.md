@@ -62,7 +62,7 @@ static void __exithello_4_exit(void){
 module_init(hello_4_init);
 module_exit(hello_4_exit);
 
-MODULE_LICENSE("GPL"); /* Avoidskerneltaintmessage*/
+MODULE_LICENSE("GPL"); /* Avoids kernel taint message*/
 MODULE_AUTHOR(DRIVER_AUTHOR); /* Who wrote this module? */
 MODULE_DESCRIPTION(DRIVER_DESC); /* What does this module */
 
