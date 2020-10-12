@@ -35,7 +35,7 @@ clean:
   make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
 ```  
 ### Macros
-In the current versions of Linux (2.4 onwards) it is possible to use any suitable name for the initand cleanup functions.In order to do that one has to begin the name of functions with `__init` and `__exit` macros, then use `module_init()` and `module_exit()` macros after defining these functions
+In the current versions of Linux (2.4 onwards) it is possible to use any suitable name for the initand cleanup functions.In order to do that one has to begin the name of functions with `__init` and `__exit` macros, then use `module_init()` and `module_exit()` macros after defining these functions.
 ```C
 #include <linux/module.h> /*Every module requires it*/
 #include <linux/kernel.h>/*KERN_INFO needs it*/
