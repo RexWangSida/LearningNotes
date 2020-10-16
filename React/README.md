@@ -40,7 +40,7 @@ ReactDOM.render(
 ```HTML
   <div> <p>a</p> <p>b</p> <p>c</p> </div>
 ```
-  - class -> className
+  - class -> className.
   
 HTML
 ```HTML
@@ -49,4 +49,15 @@ HTML
 JSX
 ```JSX
 <p className="myclass">test</p>
+```
+  - Single tag elements must have closing, such as `<br />`.
+  - Event handlers must be written in camelCase in **JSX**.
+  
+HTML
+```HTML
+<img onclick=whatever>test</p>
+```
+JSX
+```JSX
+<img onClick=whatever>test</p>
 ```
