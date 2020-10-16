@@ -12,6 +12,7 @@ ReactDOM.render(
 );
 </script>
 ```
+- The code to be rendered in the virtual DOM is **JSX** code, similar to **HTML** syntax but different rules applied.
 - The element to be rendered must be one single element, multiple elements need to be grouped.
 ```Javascript
 ReactDOM.render(
