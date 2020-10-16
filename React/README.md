@@ -34,3 +34,16 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+
+### JSX vs. HTML
+  - **JSX** expressions must have exactly one outermost element.
+```HTML
+  <div> <p>a</p> <p>b</p> <p>c</p> </div>
+```
+  - class -> className
+```HTML
+<p class="myclass">test</p>
+```
+```JSX
+<p className="myclass">test</p>
+```
