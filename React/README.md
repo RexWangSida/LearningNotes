@@ -110,6 +110,6 @@ class DisplayMyProp extends React.Component{
   render  () {return (<p>{this.props.myProp}</p>); }
 };
 
-ReactDOM.render(<DisplayMyProp myProp="Hello World"/>,document.getElementById(’myID'));
+ReactDOM.render(<DisplayMyProp myProp="Hello World"/>,document.getElementById('myID'));
 ```
 
