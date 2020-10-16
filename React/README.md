@@ -90,3 +90,15 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+
+### Component using component
+```Javascript
+class ChildComponent extends React.Component{
+  render () { return <p>hello, world!</p>; }
+};
+
+class ParentComponentextends React.Component{
+  render () { return <ChildComponent/>; }
+};
+```
+
