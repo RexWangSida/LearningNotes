@@ -112,4 +112,14 @@ class DisplayMyProp extends React.Component{
 
 ReactDOM.render(<DisplayMyProp myProp="Hello World"/>,document.getElementById('myID'));
 ```
+  - Use **defaultProps** to set default value.
+```Javascript
+class DisplayMyProp extends React.Component{
+  render () {return (<p>{this.props.myProp}</p>);}
+};
 
+DisplayMyProp.defaultProps= {myProp: "Default Text"}
+ReactDOM.render(
+  <DisplayMyProp />,document.getElementById(’myID')
+);
+```
