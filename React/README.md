@@ -1,4 +1,4 @@
-## React
+# React
 
 ### React Virtual DOM
 - lightweight abstraction of the DOM
