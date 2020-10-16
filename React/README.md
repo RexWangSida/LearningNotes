@@ -12,6 +12,13 @@ ReactDOM.render(
 );
 </script>
 ```
+- The element to be rendered must be one single element, multiple elements need to be grouped.
+```Javascript
+ReactDOM.render(
+  <div> <p></p> <p></p> <p></p> </div>
+  document.getElementById('root')
+);
+```
 ### React Component
 ```Javascript
 class ComponentName extends React.Component{
@@ -22,7 +29,7 @@ class ComponentName extends React.Component{
  - It can be rendered to the DOM by using `<ComponentName />`
 ```Javascript
 ReactDOM.render(
-  <ComponentName />
+  <ComponentName />,
   document.getElementById('root')
 );
 ```
