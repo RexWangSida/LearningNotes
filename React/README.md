@@ -73,3 +73,20 @@ var myExpr = <p>Hello World!</p>;
 var myStr = "Sida";
 var myExpr = <p>Hello {myStr}!</p>;
 ```
+
+### Producing List with JSX
+  - The array method **map** is used to build list in React from a set of data.
+```Javascript
+var myData = ['data1', 'data2', 'data3'];
+
+var myList= myData.map(
+  function(myString) { 
+    return <li>{myString}</li>; 
+  }
+);
+
+ReactDOM.render(
+  <ul>{myList}</ul>,
+  document.getElementById('root')
+);
+```
