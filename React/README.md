@@ -102,3 +102,14 @@ class ParentComponentextends React.Component{
 };
 ```
 
+### Component Props
+  - Components can pass information down to other components using **props**.
+  - The syntax of **props** is like key/value attributes in html.
+```Javascript
+class DisplayMyProp extends React.Component{ 
+  render  () {return (<p>{this.props.myProp}</p>); }
+};
+
+ReactDOM.render(<DisplayMyProp myProp="Hello World"/>,document.getElementById(’myID'));
+```
+
