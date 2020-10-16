@@ -41,7 +41,8 @@ ReactDOM.render(
   <div> <p>a</p> <p>b</p> <p>c</p> </div>
 ```
   - class -> className
-  HTML
+  
+HTML
 ```HTML
 <p class="myclass">test</p>
 ```
