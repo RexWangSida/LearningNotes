@@ -61,3 +61,15 @@ JSX
 ```JSX
 <img onClick=whatever>test</p>
 ```
+
+
+### JSX vs. Javascript
+  - JSX expression can be stored in Javascript variables.
+```Javascript
+var myExpr = <p>Hello World!</p>;
+```
+  - Javascript can be put in JSX using **{}**
+```Javascript
+var myStr = "Sida";
+var myExpr = <p>Hello {myStr}!</p>;
+```
