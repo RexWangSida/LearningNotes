@@ -123,3 +123,17 @@ ReactDOM.render(
   <DisplayMyProp />,document.getElementById(’myID')
 );
 ```
+
+### Component State
+  - **Props** are state that is set externally, it’s passed in from the outside.
+  - **State** is state that is set internally, it’s set and/or decided  on from the inside of the component.
+  - The initial state can be setup in the constructor, which when used should always accept props as a parameter and call the base class constructor with prop.
+```Javascript
+class MyComponentextends React.Component{
+  constructor(props) {
+  super(props);
+  this.state= {mystate: ‘Hello World’};
+  }
+  render () {return ( <p> {this.state.mystate} </p> );}
+};
+```
