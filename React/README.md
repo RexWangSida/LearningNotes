@@ -143,7 +143,7 @@ class MyComponentextends React.Component{
 
 ### Conditional Rendering
   - **Option 1**: use an if-statement (or switch,  etc.), outside the JSX (but within the render method) to save desired JSX segment to a variable.
-```React
+```JSX
 render () { 
   var toRender;
   if (this.state.mystate) toRender = <AComponent />
