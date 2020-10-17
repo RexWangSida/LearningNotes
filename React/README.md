@@ -138,4 +138,4 @@ class MyComponentextends React.Component{
 };
 ```
   - To change component state, call `this.setState({key:value})`, state provided will be merged with old state.
-  - ⚠️ `this.setState()` cannot be called from within render, because every time that `this.setState` is called, ReactJS will automatically call render immediately afterwards.
+  - ⚠️ `this.setState()` cannot be called from within render, because every time that `this.setState` is called, ReactJS will automatically call render immediately afterwards. Calling from within render leads to infinite loops.
