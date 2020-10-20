@@ -48,13 +48,13 @@ static char *my_string__initdata= "dummy";
 static intmy_int__initdata= 4;
 
 /* Initfunction with user defined name*/
-static int__inithello_4_init(void){
+static int __init hello_4_init(void){
   printk(KERN_INFO "Hello %s world, number %d\n",my_string, my_int);
   return 0;
 }
 
 /* Exit function with user defined name*/
-static void __exithello_4_exit(void){
+static void __exit hello_4_exit(void){
   printk(KERN_INFO "Goodbye cruel world 4\n");
 }
 
