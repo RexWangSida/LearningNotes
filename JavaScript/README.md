@@ -3,6 +3,7 @@
 - ECMAScript6(ES6) supports Babel
 - Angular, React, Vue for front-end
 - Node for server-side(back-end)
+- Place the '<script></script>' at the very bottom as necessary if you want HTML shows correctly, since the code runs top-down.
 
 ## Connect JS to HTML
 suppose there is a JS file named `main.js` and it is supposed to be connected to the following html
