@@ -88,3 +88,8 @@ function myFunc(){
   //function scope
 }
 ```
+- ### Ternary Operators
+condition ? True : False
+```Javascript
+a > b ? console.log("a is bigger") : console.log("b is bigger");
+```
