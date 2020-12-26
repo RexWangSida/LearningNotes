@@ -1,3 +1,7 @@
+# JavaScript
+- JS confirms to the ECMAScript, and browsers use ECMAScript to interpret JavaScript.
+
+
 ## Connect JS to HTML
 suppose there is a JS file named `main.js` and it is supposed to be connected to the following html
 ```html
