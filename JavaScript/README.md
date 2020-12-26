@@ -81,4 +81,10 @@ var car = {type:"Toyota", year:1990, model:"Camry"};
  ```
 
 - ### Empty variable but not undefined - null
-- ### === for value&type equality
+
+- ### Functions
+```Javascript
+function myFunc(){
+  //function scope
+}
+```
