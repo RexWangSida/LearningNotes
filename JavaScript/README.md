@@ -70,3 +70,12 @@ Js supports auto type conversion when doing comparison with `==`, `===` will che
 var car = {type:"Toyota", year:1990, model:"Camry"};
 ```
 `car[type]` will get "Toyota"
+
+- ### Operation on Integer and String
+ ```Javascript
+ var sum = "1" + 1 // sum = "11"
+ var sub = "5" - 1 // sub = 1
+ var mul = "5" * 10 // mul= 50
+ var div = "5" / 1 // div = 5
+ var sum = "a" + 1 // sum = NaN
+ ```
