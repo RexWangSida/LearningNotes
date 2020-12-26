@@ -79,3 +79,6 @@ var car = {type:"Toyota", year:1990, model:"Camry"};
  var div = "5" / 1 // div = 5
  var sum = "a" + 1 // sum = NaN
  ```
+
+- ### Empty variable but not undefined - null
+
