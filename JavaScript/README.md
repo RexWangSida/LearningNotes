@@ -93,3 +93,11 @@ condition ? True : False
 ```Javascript
 a > b ? console.log("a is bigger") : console.log("b is bigger");
 ```
+
+- ### Anonymous Functions
+```Javascript
+var AFunc = function(){
+  //function scope
+}
+AFunc();
+```
