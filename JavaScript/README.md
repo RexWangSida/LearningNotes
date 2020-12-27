@@ -129,3 +129,7 @@ document.getElementById("id").outterHTML; //returns the whole tag as a string
 // elements
 document.getElementById("id").id; //returns the id as a string
 document.getElementById("id").className; //returns the className as a string
+
+// change style
+document.getElementById("id").style.color = "green";
+document.getElementById("id").style.margin = "20px";
