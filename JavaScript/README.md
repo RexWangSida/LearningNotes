@@ -107,6 +107,17 @@ var AFunc = function(){
 }
 AFunc();
 ```
+- ### Arrow Functions
+```Javascript
+// Anonymous function
+var sum = function(price, tax){
+  return price + tax;
+}
+
+//Arrow function
+var sum = (price, tax) => price + tax;
+
+
 - ### Document Object Model(DOM)
 <img src="dom.jpg"></img>
 ```Javascript
