@@ -1,7 +1,7 @@
 # JavaScript
 - JS confirms to the ECMAScript, and browsers use ECMAScript to interpret JavaScript.
 - ECMAScript6(ES6) supports Babel
-- Angular, React, Vue for front-end
+- Angular, React, Vue for client-side(front-end)
 - Node for server-side(back-end)
 - Place the `<script></script>` at the very bottom as necessary if you want HTML shows correctly, since the code runs top-down.
 - `defer` keyword allows to run JS after the page is loaded.
@@ -144,3 +144,6 @@ document.getElementById("id").className; //returns the className as a string
 // change style
 document.getElementById("id").style.color = "green";
 document.getElementById("id").style.margin = "20px";
+```
+- ### Typescript vs. Javascript
+Javascript is loosely typed, Typescript specifies a type for each variable.
