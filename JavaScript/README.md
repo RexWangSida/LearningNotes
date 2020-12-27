@@ -108,4 +108,4 @@ var AFunc = function(){
 AFunc();
 ```
 - ### Document Object Model(DOM)
-<img src="DOM.jpg"></img>
+<img src="dom.jpg"></img>
