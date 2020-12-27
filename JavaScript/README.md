@@ -109,3 +109,23 @@ AFunc();
 ```
 - ### Document Object Model(DOM)
 <img src="dom.jpg"></img>
+```Javascript
+document.body // body element
+document.title // document title
+document.URL // document URL
+
+document.getElementById("id");
+document.getElementsByClassName("classname");
+document.getElementsByTagName("tag");
+
+// CSS query selector
+document.querySelector(".main-nav a"); //get first query selection
+document.querySelectorAll(".post-content p"); //get all query selection
+
+// innerHTML and outterHTML
+document.getElementById("id").innerHTML; //returns the content within the tag as a string
+document.getElementById("id").outterHTML; //returns the whole tag as a string
+
+// elements
+document.getElementById("id").id; //returns the id as a string
+document.getElementById("id").className; //returns the className as a string
