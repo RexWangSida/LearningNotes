@@ -4,7 +4,8 @@
 ## Command line
 - `node filename.js` or `node filename` to run a JS file
 
-## Import modules with require function
+## [Globals](https://nodejs.org/api/globals.html)
+### Import modules with require function
 ```Javascript
 const path = require('path'); // path is a node module
 
