@@ -12,3 +12,9 @@ const path = require('path'); // path is a node module
 console.log(`The filename is ${path.basename(__filename)}`); 
 // __filename : current file path
 // __dirname : current directory path
+```
+### process
+```Javascript
+console.log(process.pid); //current process id
+console.log(process.versions.node); //current node version
+console.log(process.argv); //arguments array, first is node path, second is current file path, the third and later elements are command line arguments
