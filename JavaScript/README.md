@@ -145,5 +145,11 @@ document.getElementById("id").className; //returns the className as a string
 document.getElementById("id").style.color = "green";
 document.getElementById("id").style.margin = "20px";
 ```
+
+- ### Template Strings
+```Javascript
+var num = 1;
+console.log(`This is ${num}`); //`${}` for template strings
+```
 - ### Typescript vs. Javascript
 Javascript is loosely typed, Typescript specifies a type for each variable.
