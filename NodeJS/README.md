@@ -26,3 +26,16 @@ console.log(`setting a ${waitTime / 1000} second delay`);
 
 const timerFinished = () => console.log("done");
 setTimeout(timerFinished, waitTime); // first argument is the callback function, which will be called when time elapsed, second argument is the waiting time in ms.
+```
+### setInterval
+```Javascript
+var waitTime = 0;
+const interval = 500;
+
+const incTime = () => {
+  waitTime += interval;
+  console.log(`waiting ${waitTime / 1000} seconds`);
+};
+
+setInterval(incTime, interval); // first argument is the callback function, which will be called when time elapsed, second argument is the waiting time in ms.
+```
