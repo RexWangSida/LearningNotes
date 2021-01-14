@@ -3,3 +3,6 @@
 - Both software & hardware.
 - Learn to **develop distributed application** and to **configure and operate as a system administrator**.
 
+## Internet
+- End host <-> routers.... <-> server
+<img src="nuts.png"></img>
