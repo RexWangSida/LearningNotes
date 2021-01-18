@@ -20,12 +20,11 @@ function merge(left, right) {
 }
 
 function mergeSort(array) {
-  const half = array.length / 2
-  
   // Base case or terminating case
-  if(array.length < 2){
+  if(array.length <= 1){
     return array 
   }
+  const half = array.length / 2
   
   const left = array.splice(0, half)
   return merge(mergeSort(left),mergeSort(array))
