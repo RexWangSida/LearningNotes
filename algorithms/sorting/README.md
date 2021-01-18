@@ -60,7 +60,7 @@ var quickSort = function(arr) {
 
 　　}
 
-　　return quickSort(left).concat([pivot], quickSort(right));
+　　return [...quickSort(left), pivot, ...quickSort(right)];
 
 };
 ```
