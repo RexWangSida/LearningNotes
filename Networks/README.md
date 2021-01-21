@@ -15,4 +15,7 @@
   - Tier-3
   - Local ISP
 - Connection type:
-  - Custmers and Providers
+  - Custmers and Providers(e.g. Bell and Your PC)： Customer pays provider for access to the Internet.
+  - Peering Relationship(e.g. CA SP and US SP): Peers provide transit between their respective customers and do not provide transit between peers. 
+<img src="connection.png"></img>
+That means two customers cannot directly communicate with each other, need to use provider.
