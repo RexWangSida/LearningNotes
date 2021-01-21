@@ -43,10 +43,11 @@ A' to C': A' => A => D => C => C'
 - **Loss & Delay**
   - Packets stores in router buffers
   - arrival rate to buffer > output rate from buffer
-  - **Loss:** No free buffers
+  - **Loss:** No free buffers, packet being dropped
   - **Delay:** 
   ```
   1. Packets queueing in the buffer(queueing delay)
   2. Packets transmit from head of the buffer to the end of the buffer(transmission delay)
   3. Packets traveks on the wires(propagation delay)
+  4. Packets being checked for bit errors, router determine output link, deep packet inspection(processing delay)
   ```
