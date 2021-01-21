@@ -36,7 +36,17 @@ A' to C': A' => A => D => C => C'
 
 ### Packet-Switching
 - **Store-and-forward** Mechanism
-- Application message is broken down into packets, each ~ 1000 bytes.
+- Application message is broken down into packets(encapsulated), each ~ 1000 bytes.
 - Each packet **must arrive at a router** before it can be transmitted on next link.
 - Individual packet could be forwarded **along different network paths** from source to destination.
 <img src="packets.png"></img>
+- **Loss & Delay**
+  - Packets stores in router buffers
+  - arrival rate to buffer > output rate from buffer
+  - **Loss:** No free buffers
+  - **Delay:** 
+  ```
+  1. Packets queueing in the buffer(queueing delay)
+  2. Packets transmit from head of the buffer to the end of the buffer(transmission delay)
+  3. Packets traveks on the wires(propagation delay)
+  ```
