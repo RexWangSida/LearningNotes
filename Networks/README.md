@@ -33,3 +33,10 @@ A' to C': A' => A => D => C => C'
       Packets sent to router i need to be passed by router i-1
  ```
 <img src="traceroute.png"></img>
+
+### Packet-Switching
+- **Store-and-forward** Mechanism
+- Application message is broken down into packets, each ~ 1000 bytes.
+- Each packet **must arrive at a router** before it can be transmitted on next link.
+- Individual packet could be forwarded **along different network paths** from source to destination.
+<img src="packets.png"></img>
