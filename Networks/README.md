@@ -30,5 +30,6 @@ A' to C': A' => A => D => C => C'
       Sender send three packets to router i
       Router i return packets to the sender
       Sender measure the interval between transmission and reply
+      Packets sent to router i need to be passed by router i-1
  ```
 <img src="traceroute.png"></img>
