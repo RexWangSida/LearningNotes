@@ -25,10 +25,10 @@ A' to C': A' => A => D => C => C'
 ### Traceroute
 - Provides **delay measurement** from source to each router along the end-to-end Internet path towards destination.
 - Method:
-  -``` 
+``` 
     For all i:
       Sender send three packets to router i
       Router i return packets to the sender
       Sender measure the interval between transmission and reply
-    ```
+ ```
 <img src="traceroute.png"></img>
