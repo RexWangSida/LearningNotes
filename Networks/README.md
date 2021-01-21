@@ -18,5 +18,6 @@
   - Custmers and Providers(e.g. Bell and Your PC)： Customer pays provider for access to the Internet.
   - Peering Relationship(e.g. CA SP and US SP): Peers provide transit between their respective customers and do not provide transit between peers. 
 <img src="connection.png"></img>
-That means two customers cannot directly communicate with each other, need to use provider and go to higher tiers.
+- That means two customers cannot directly communicate with each other, need to use provider and go to higher tiers.
 A' to C': A' => A => D => C => C'
+- Tier-1 providers interconnect at public **Networks Access Points(NAPs)**
