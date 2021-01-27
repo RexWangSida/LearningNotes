@@ -47,6 +47,7 @@ Media       |
  - **Service**: What a layer does
  - **Service Interface**: How to access the service
  - **Protocol**: how is the service implemented(set of rules and message formats)
+- Layerung is **not always followed rigorously**
 
 ### Internet Protocol Architecture
 ```
