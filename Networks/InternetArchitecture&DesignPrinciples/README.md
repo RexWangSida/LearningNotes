@@ -34,3 +34,9 @@ Media       |
 - Must decide:
  - **How** to break system into modules
  - **Where** components should be distributed
+
+### Layering
+- Layering is a particular form of **modularization**
+- The system is decomposed into a **vertical hierarchy** of logically distinct layers
+- Rigid structure: easy reuse, performance may suffer
+<img src="layer.png"></img>
