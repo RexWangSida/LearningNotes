@@ -28,4 +28,9 @@ Layer       |    ["one intermediate layer"]
 Transmission|   [Coaxial cable]  [Fiber optic]
 Media       |
 ```
-
+## Network Architecture
+### Network Modularity
+- Many software components **distributed** across routers and hosts
+- Must decide:
+ - **How** to break system into modules
+ - **Where** components should be distributed
