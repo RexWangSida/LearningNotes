@@ -38,5 +38,19 @@ Media       |
 ### Layering
 - Layering is a particular form of **modularization**
 - The system is decomposed into a **vertical hierarchy** of logically distinct layers
+- Each layer **only communicates with its adjacent layers**
 - Rigid structure: easy reuse, performance may suffer
 <img src="layer.png"></img>
+- **Concept of layers**:
+ - **Service**: What a layer does
+ - **Service Interface**: How to access the service
+ - **Protocol**: how is the service implemented(set of rules and message formats)
+
+### Internet Protocol Architecture
+|Application Layer|
+|Transport Layer|
+|Network Layer|
+|(Data) Link Layer|
+|Physical Layer|
+
+|
