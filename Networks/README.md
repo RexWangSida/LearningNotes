@@ -52,26 +52,26 @@ A' to C': A' => A => D => C => C'
   4. Packets being checked for bit errors, router determine output link, deep packet inspection(processing delay)
   ```
   - **Queueing delay**: 
-```
-R = Link bandwidth(bytes/s)
-L = packet length(bits)
-a = average packet arrival(packet/s)
-traffic intensity = L*a/R
+  ```
+  R = Link bandwidth(bytes/s)
+  L = packet length(bits)
+  a = average packet arrival(packet/s)
+  traffic intensity = L*a/R
 
-queueing delay
-|                      * |
-|                      * |
-|                     *  |
-|                    *   |
-|                   *    | 
-|                  *     | 
-|                *       | 
-|             *          | 
-|         *              | 
-|    *                   | 
-|----------------------------L*a/R
-                         1
-L*a/R ~ 0: average queueing delay small
-L*a/R => 1: delays become large
-L*a/R > 1: arriving > served, average delay infinite!
-```
+  queueing delay
+  |                      * |
+  |                      * |
+  |                     *  |
+  |                    *   |
+  |                   *    | 
+  |                  *     | 
+  |                *       | 
+  |             *          | 
+  |         *              | 
+  |    *                   | 
+  |----------------------------L*a/R
+                           1
+  L*a/R ~ 0: average queueing delay small
+  L*a/R => 1: delays become large
+  L*a/R > 1: arriving > served, average delay infinite!
+  ```
