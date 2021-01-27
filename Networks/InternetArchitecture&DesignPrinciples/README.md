@@ -48,9 +48,10 @@ Media       |
 
 ### Internet Protocol Architecture
 ```
-|---Application Layer---|
-|----Transport Layer----|
-|-----Network Layer-----|
-|---(Data) Link Layer---|
+|---Application Layer---|     telnet, ftp, SMTP, HTTP, DNS   \
+|----Transport Layer----|     TCP, UDP                       | TCP/IP   
+|-----Network Layer-----|     IP, ICMP, IGMP                 |  Suite  ----> Basis for networks
+|---(Data) Link Layer---|     FDDI, ATM, Ethernet            /
 |----Physical  Layer----|
 ```
+
