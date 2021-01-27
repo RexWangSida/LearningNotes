@@ -47,10 +47,10 @@ A' to C': A' => A => D => C => C'
   - **Loss:** No free buffers, packet being dropped
   - **Delay:** 
   ```
-  1. Packets queueing in the buffer(queueing delay)
-  2. Packets transmit from buffer to the link(transmission delay)
-  3. Packets travels on the wires(propagation delay)
-  4. Packets being checked for bit errors, router determine output link, deep packet inspection(processing delay)
+  1. Packets queueing in the buffer(queueing delay), typically a few ms
+  2. Packets transmit from buffer to the link(transmission delay), depends on the level of network loads
+  3. Packets travels on the wires(propagation delay), significant for low-speed links
+  4. Packets being checked for bit errors, router determine output link, deep packet inspection(processing delay), a few ms to hundreds of ms
   ```
   - **Queueing delay**: 
   ```
@@ -88,4 +88,4 @@ A' to C': A' => A => D => C => C'
   s = propagation speed in medium (light speed ~3*10^8m/s)
   propagation delay = d/s
   ```
-  
+  - **Nodal delay**: sums up all four delays, represents the delay at one router
