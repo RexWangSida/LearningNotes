@@ -40,7 +40,9 @@ Media       |
 - The system is decomposed into a **vertical hierarchy** of logically distinct layers
 - Each layer **only communicates with its adjacent layers**
 - Rigid structure: easy reuse, performance may suffer
+
 <img src="layer.png"></img>
+
 - **Concept of layers**:
  - **Service**: What a layer does
  - **Service Interface**: How to access the service
@@ -58,7 +60,9 @@ Media       |
 - Routers does not have Application and Transport layers
 - Switches only have Link and Physical layers
 - **Layering in action**:
+
  <img src="action.png"></img>
+ 
  - A header is added when a message goes down one layer and is removed when goes up one layer
  - When a hop receive a message, it goes up to top then goes down to bottom to be sent to another hop
 - **Services of Layers**:
