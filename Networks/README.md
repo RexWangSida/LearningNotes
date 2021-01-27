@@ -44,7 +44,7 @@ A' to C': A' => A => D => C => C'
   <img src="delay.png"></img>
   - Packets stores in router buffers
   - arrival rate to buffer > output rate from buffer
-  - **Loss:** No free buffers, packet being dropped
+  - **Loss:** buffer full, packet being dropped
   - **Delay:** 
   ```
   1. Packets queueing in the buffer(queueing delay), typically a few ms
