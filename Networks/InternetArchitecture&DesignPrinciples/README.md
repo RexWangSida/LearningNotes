@@ -62,6 +62,7 @@ Media       |
  - A header is added when a message goes down one layer and is removed when goes up one layer
  - When a hop receive a message, it goes up to top then goes down to bottom to be sent to another hop
 - **Services of Layers**:
+
 |Layer              | Service                                               |
 |-------------------|-------------------------------------------------------|
 |Application Layer  |Supporting network applications                        |
