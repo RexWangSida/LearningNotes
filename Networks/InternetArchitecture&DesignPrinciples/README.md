@@ -47,10 +47,10 @@ Media       |
  - **Protocol**: how is the service implemented(set of rules and message formats)
 
 ### Internet Protocol Architecture
-|Application Layer|
-|Transport Layer|
-|Network Layer|
-|(Data) Link Layer|
-|Physical Layer|
 
-|
+|---Application Layer---|
+|----Transport Layer----|
+|-----Network Layer-----|
+|---(Data) Link Layer---|
+|----Physical  Layer----|
+
