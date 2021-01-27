@@ -1,4 +1,4 @@
-# Internet Architecture and Design Principles
+# Internet Architecture
 ## Protocols
 - Protocols define **format and order** of messages sent and received, among network entities, and **actions required** on message transmission.
 - e.g. TCP, IP, HTTP, SMTP, SSH, FTP
@@ -47,7 +47,7 @@ Media       |
  - **Service**: What a layer does
  - **Service Interface**: How to access the service
  - **Protocol**: how is the service implemented(set of rules and message formats)
-- Layerung is **not always followed rigorously**
+- Layering is **not always followed rigorously**
 
 ### Internet Protocol Architecture
 ```
@@ -74,3 +74,8 @@ Media       |
  |Transport Layer    |Process-to-process data transfer                       |
  |Network Layer      |Routing of datagrams from source to destination        |
  |Link Layer         |Data transfer between neighboring network elements     |
+
+# Internet Design
+## Two Design Principles
+- **No.1**: At the network core: **the hourglass model**
+- **No.2**: From the end systems' point of view: **end-to-end argument**
