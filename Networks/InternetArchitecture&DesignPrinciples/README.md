@@ -54,4 +54,8 @@ Media       |
 |---(Data) Link Layer---|     FDDI, ATM, Ethernet            /
 |----Physical  Layer----|
 ```
-
+- Computers(hosts) have all five layers
+- Routers does not have Application and Transport layers
+- Switches only have Link and Physical layers
+- **Layering in action**:
+ <img src="action.png"></img>
