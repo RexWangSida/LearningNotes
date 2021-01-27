@@ -41,6 +41,7 @@ A' to C': A' => A => D => C => C'
 - Individual packet could be forwarded **along different network paths** from source to destination.
 <img src="packets.png"></img>
 - **Loss & Delay**
+  <img src="delay.png"></img>
   - Packets stores in router buffers
   - arrival rate to buffer > output rate from buffer
   - **Loss:** No free buffers, packet being dropped
