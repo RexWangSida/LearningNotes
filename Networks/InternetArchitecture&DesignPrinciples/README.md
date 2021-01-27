@@ -78,4 +78,7 @@ Media       |
 # Internet Design
 ## Two Design Principles
 - **No.1**: At the network core: **the hourglass model**
+
+<img src="hourglass.png"></img>
+
 - **No.2**: From the end systems' point of view: **end-to-end argument**
