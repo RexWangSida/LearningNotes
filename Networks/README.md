@@ -47,7 +47,7 @@ A' to C': A' => A => D => C => C'
   - **Delay:** 
   ```
   1. Packets queueing in the buffer(queueing delay)
-  2. Packets transmit from head of the buffer to the end of the buffer(transmission delay)
+  2. Packets transmit from buffer to the link(transmission delay)
   3. Packets travels on the wires(propagation delay)
   4. Packets being checked for bit errors, router determine output link, deep packet inspection(processing delay)
   ```
@@ -75,3 +75,16 @@ A' to C': A' => A => D => C => C'
   L*a/R => 1: delays become large
   L*a/R > 1: arriving > served, average delay infinite!
   ```
+  - **Transimission delay**: from buffer to the link
+  ```
+  R = link bandwith(bps)
+  L = packet length(bits)
+  time to send the packet into link = L/R
+  ```
+  - **Propagation delay**: delay in the wire
+  ```
+  d = length of the physical link wire
+  s = propagation speed in medium (light speed ~3*10^8m/s)
+  propagation delay = d/s
+  ```
+  
